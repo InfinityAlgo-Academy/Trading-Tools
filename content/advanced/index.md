@@ -26,7 +26,7 @@ Trade with institutional flow. Understand where the big money is positioned.
 
 ---
 
-## [[liquidity-zones|Liquidity Zones]]
+## [[advanced/liquidity-zones]]
 
 Find where liquidity pools exist. Trade the runs.
 
@@ -34,7 +34,7 @@ Find where liquidity pools exist. Trade the runs.
 
 ---
 
-## [[order-flow|Order Flow]]
+## [[advanced/order-flow]]
 
 Read actual buying and selling. Don't trade charts — trade orders.
 
@@ -42,7 +42,7 @@ Read actual buying and selling. Don't trade charts — trade orders.
 
 ---
 
-## [[algorithmic-trading|Algorithmic Trading]]
+## [[advanced/algorithmic-trading]]
 
 Automate your execution. Remove emotion from entry.
 
@@ -50,7 +50,7 @@ Automate your execution. Remove emotion from entry.
 
 ---
 
-## [[market-structure|Advanced Market Structure]]
+## [[advanced/smart-money-concepts]]
 
 See what others miss.
 
@@ -58,7 +58,7 @@ See what others miss.
 
 ---
 
-## [[institutional-trading|Institutional Trading]]
+## [[advanced/order-flow]]
 
 Think like a fund. Trade the money flows.
 

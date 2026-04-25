@@ -17,7 +17,7 @@ This section covers every analysis type — so you can find confluences, make de
 
 # Analysis Types
 
-## [[technical-analysis|Technical Analysis]]
+## [[analysis/technical-analysis]]
 
 Study of price action using charts and indicators.
 
@@ -27,7 +27,7 @@ Study of price action using charts and indicators.
 
 ---
 
-## [[fundamental-analysis|Fundamental Analysis]]
+## [[analysis/fundamental-analysis]]
 
 Study of economic factors that affect value.
 
@@ -37,7 +37,7 @@ Study of economic factors that affect value.
 
 ---
 
-## [[sentiment-analysis|Sentiment Analysis]]
+## [[analysis/sentiment-analysis]]
 
 Study of market feeling and positioning.
 
@@ -47,7 +47,7 @@ Study of market feeling and positioning.
 
 ---
 
-## [[price-action|Price Action]]
+## [[analysis/price-action]]
 
 Reading raw price movement without indicators.
 
@@ -57,7 +57,7 @@ Reading raw price movement without indicators.
 
 ---
 
-## [[multi-timeframe|Multi-Timeframe Analysis]]
+## [[analysis/multi-timeframe]]
 
 Analyzing multiple timeframes for confluence.
 
@@ -280,8 +280,8 @@ Navigate analysis:
 Connect to:
 
 - [[strategies]] — Apply analysis
-- [[03-tools]] — Tools for analysis
-- [[05-strategies/Strategy-Development]] — Build your system
+- [[tools]] — Tools for analysis
+- [[strategies]] — Build your system
 
 ---
 

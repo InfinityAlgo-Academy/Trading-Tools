@@ -17,7 +17,7 @@ This hub covers every risk principle — from position sizing to drawdown limits
 
 # Core Concepts
 
-## [[position-sizing|Position Sizing]]
+## [[risk-management/position-sizing]]
 
 How much to risk per trade.
 
@@ -41,7 +41,7 @@ Potential profit vs potential loss.
 
 ---
 
-## [[stop-loss|Stop Loss]]
+## [[risk-management/stop-loss]]
 
 Automatic loss limits.
 
@@ -49,7 +49,7 @@ Automatic loss limits.
 
 ---
 
-## [[drawdown|Drawdown]]
+## [[risk-management/drawdown]]
 
 Managing losing streaks.
 
@@ -57,7 +57,7 @@ Managing losing streaks.
 
 ---
 
-## [[daily-limits|Daily Limits]]
+## [[risk-management/daily-limits]]
 
 Intraday risk caps.
 
@@ -65,7 +65,7 @@ Intraday risk caps.
 
 ---
 
-## [[correlation|Correlation]]
+## [[risk-management/correlation]]
 
 Portfolio risk.
 
@@ -326,7 +326,7 @@ Connect to:
 
 - [[strategies]] — Strategy application
 - [[psychology]] — Psychology
-- [[05-strategies/Strategy-Development]] — System building
+- [[strategies]] — System building
 
 ---
 

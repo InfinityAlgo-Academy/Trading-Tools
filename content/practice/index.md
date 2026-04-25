@@ -17,7 +17,7 @@ This hub covers how to practice effectively — from trade setups to backtesting
 
 # Practice Sections
 
-## [[trade-setups|Trade Setups]]
+## [[practice/trade-setups]]
 
 Practice specific setups until mastered.
 
@@ -25,7 +25,7 @@ Practice specific setups until mastered.
 
 ---
 
-## [[backtesting|Backtesting]]
+## [[practice/backtesting]]
 
 Test your strategies before trading real money.
 
@@ -33,7 +33,7 @@ Test your strategies before trading real money.
 
 ---
 
-## [[journaling|Journaling]]
+## [[practice/journaling]]
 
 Track every trade, learn from everything.
 
@@ -41,7 +41,7 @@ Track every trade, learn from everything.
 
 ---
 
-## [[demo-trading|Demo Trading]]
+## [[practice/demo-trading]]
 
 Practice in risk-free environment.
 
@@ -49,7 +49,7 @@ Practice in risk-free environment.
 
 ---
 
-## [[exercises|Exercises]]
+## [[practice/exercises]]
 
 Daily and weekly practice exercises.
 
@@ -121,7 +121,7 @@ Connect to:
 - [[strategies]] — Apply practice to strategy
 - [[case-studies]] — Learn from examples
 - [[journal]] — Track everything
-- [[07-psychology]] — Psychology practice
+- [[psychology]] — Psychology practice
 
 ---
 

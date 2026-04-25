@@ -17,7 +17,7 @@ This section covers every tool you need — from choosing indicators to setting 
 
 # Tool Categories
 
-## [[indicators|Indicators]]
+## [[tools/indicators]]
 
 Mathematical calculations plotted on charts to identify patterns and signals.
 
@@ -27,7 +27,7 @@ Mathematical calculations plotted on charts to identify patterns and signals.
 
 ---
 
-## [[rsi|RSI]]
+## [[tools/rsi]]
 
 Relative Strength Index — momentum oscillator measuring speed of price movements.
 
@@ -37,7 +37,7 @@ Relative Strength Index — momentum oscillator measuring speed of price movemen
 
 ---
 
-## [[macd|MACD]]
+## [[tools/macd]]
 
 Moving Average Convergence Divergence — trend-following momentum indicator.
 
@@ -47,7 +47,7 @@ Moving Average Convergence Divergence — trend-following momentum indicator.
 
 ---
 
-## [[pivot-points|Pivot Points]]
+## [[tools/pivot-points]]
 
 Calculated support and resistance levels based on previous period's high, low, close.
 
@@ -57,7 +57,7 @@ Calculated support and resistance levels based on previous period's high, low, c
 
 ---
 
-## [[charting-tools|Charting Tools]]
+## [[tools/charting-tools]]
 
 Software for viewing and analyzing price charts.
 
@@ -67,7 +67,7 @@ Software for viewing and analyzing price charts.
 
 ---
 
-## [[platforms|Trading Platforms]]
+## [[tools/platforms]]
 
 Software for executing trades and managing positions.
 
@@ -77,7 +77,7 @@ Software for executing trades and managing positions.
 
 ---
 
-## [[automation|Automation]]
+## [[tools/automation]]
 
 Tools for automating trading processes.
 
@@ -87,7 +87,7 @@ Tools for automating trading processes.
 
 ---
 
-## [[backtesting|Backtesting]]
+## [[tools/backtesting]]
 
 Tools for testing strategies on historical data.
 
@@ -102,7 +102,7 @@ Tools for testing strategies on historical data.
 ## Indicators
 
 | Type | Purpose | Examples |
-|------|--------|----------|
+|------|---------|----------|
 | Trend | Direction | Moving averages, Ichimoku |
 | Momentum | Speed of move | RSI, MACD, Stochastic |
 | Volatility | Range of move | ATR, Bollinger Bands |
@@ -287,17 +287,16 @@ Your tools are set. Now act.
 
 Navigate tools:
 
-- [[indicators]] — Start here
-- [[rsi]] — Momentum
-- [[macd]] — Trend momentum
-- [[pivot-points]] — Levels
+- [[tools/indicators]] — Start here
+- [[tools/rsi]] — Momentum
+- [[tools/macd]] — Trend momentum
+- [[tools/pivot-points]] — Levels
 
 Connect to strategies:
 
 - [[strategies]] — Apply tools
-- [[04-analysis]] — Analysis methods
-- [[05-strategies]] — Strategy development
-- [[06-risk-management]] — Risk tools
+- [[analysis]] — Analysis methods
+- [[risk-management]] — Risk tools
 
 ---
 

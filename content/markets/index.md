@@ -16,7 +16,7 @@ This section covers every major financial market — so you can choose the right
 
 # Market Types
 
-## [[forex|Forex]]
+## [[markets/forex]]
 
 The foreign exchange market — trading currency pairs.
 
@@ -29,7 +29,7 @@ The foreign exchange market — trading currency pairs.
 
 ---
 
-## [[crypto|Crypto]]
+## [[markets/crypto]]
 
 Digital assets — Bitcoin, Ethereum, and thousands of altcoins.
 
@@ -42,7 +42,7 @@ Digital assets — Bitcoin, Ethereum, and thousands of altcoins.
 
 ---
 
-## [[stocks|Stocks]]
+## [[markets/stocks]]
 
 Equity markets — shares of companies.
 
@@ -55,7 +55,7 @@ Equity markets — shares of companies.
 
 ---
 
-## [[indices|Indices]]
+## [[markets/indices]]
 
  Stock market indices — S&P 500, NASDAQ, etc.
 
@@ -68,7 +68,7 @@ Equity markets — shares of companies.
 
 ---
 
-## [[commodities|Commodities]]
+## [[markets/commodities]]
 
 Physical goods — Gold, oil, agriculture.
 
