@@ -12,14 +12,10 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          Created by InfinityAlgo By: King Arius (Ar hafsi) © 2020-{year}
+          Created by <strong>InfinityAlgo</strong> By: King Arius (Ar hafsi) © 2020-{year}
         </p>
         <ul>
-          {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
-            </li>
-          ))}
+          <li><a href="https://github.com/InfinityAlgo-Academy">GitHub</a></li>
         </ul>
       </footer>
     )
