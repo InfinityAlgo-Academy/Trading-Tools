@@ -2,7 +2,7 @@
 title: "Pine Script Plotting"
 description: "Master all Pine Script plotting functions - plot, plotshape, plotchar, fill, and more for visual indicators."
 tags: [pine-script, basics, plotting, visualization]
-slug: pinescript-basics-plotting
+slug: tools/pine-script-basics-plotting
 ---
 
 # Plotting in Pine Script
@@ -17,7 +17,7 @@ Learn how to visualize your indicators using Pine Script's powerful plotting fun
 
 The most common plotting function:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Plot Examples")
 
@@ -36,7 +36,7 @@ plot(ta.sma(close, 20), style=plot.style_line, color=color.green)
 
 ### Plot Styles
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Plot Styles")
 
@@ -70,7 +70,7 @@ plot(ta.sma(close, 20), style=plot.style_line, linewidth=3)
 
 Plot shapes at specific conditions:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Shapes")
 
@@ -93,7 +93,7 @@ plot(sma20)
 
 ### All Shape Types
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("All Shapes")
 
@@ -120,7 +120,7 @@ plotshape(true, style=shape.pitchfork, title="pitchfork")
 
 Plot characters (symbols):
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Characters")
 
@@ -151,7 +151,7 @@ hline(30)
 
 Plot directional arrows:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Arrows")
 
@@ -175,7 +175,7 @@ plotarrow(rsiChange, colorup=color.lime, colordown=color.red)
 
 Draw horizontal reference lines:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Horizontal Lines")
 
@@ -200,7 +200,7 @@ hline(30, title="Oversold", color=color.green, linestyle=hline.style_dashed)
 
 Fill between two lines:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Fill")
 
@@ -223,7 +223,7 @@ fill(middle, lower, color=color.new(color.green, 90))
 
 ## Complete Example: Custom Indicator
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Complete Indicator", overlay=true)
 
@@ -277,9 +277,9 @@ bgcolor(close < bb.lower ? color.new(color.green, 90) : close > bb.upper ? color
 
 ## Next Steps
 
-- **[[pinescript/indicators/moving-averages]]** - Build real indicators
-- **[[pinescript/indicators/rsi]]** - Build oscillators
-- **[[pinescript/strategies/basics]]** - Start building strategies
+- **[[tools/pine-script/indicators/moving-averages]]** - Build real indicators
+- **[[tools/pine-script/indicators/rsi]]** - Build oscillators
+- **[[tools/pine-script/strategies/basics]]** - Start building strategies
 
 ---
 

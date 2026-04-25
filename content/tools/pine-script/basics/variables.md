@@ -2,7 +2,7 @@
 title: "Pine Script Variables and Data Types"
 description: "Learn Pine Script variables, data types, and how to store and manipulate data in your scripts."
 tags: [pine-script, basics, variables, programming]
-slug: pinescript-basics-variables
+slug: tools/pine-script-basics-variables
 ---
 
 # Variables and Data Types in Pine Script
@@ -15,7 +15,7 @@ Understanding variables and data types is fundamental to writing effective Pine 
 
 Variables are containers that store data values. In Pine Script, you declare a variable and assign it a value:
 
-```pinescript
+```tools/pine-script
 myNumber = 10
 myText = "Hello"
 myPrice = close
@@ -31,7 +31,7 @@ Pine Script has several built-in data types:
 
 Whole numbers without decimals:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Integer Demo")
 
@@ -47,7 +47,7 @@ plot(period)
 
 Numbers with decimal places:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Float Demo")
 
@@ -62,7 +62,7 @@ plot(price)
 
 True or false values:
 
-```upinescript
+```utools/pine-script
 //@version=6
 indicator("Boolean Demo")
 
@@ -77,7 +77,7 @@ plot(close)
 
 Text values:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("String Demo")
 
@@ -91,7 +91,7 @@ plot(close, title=plotTitle)
 
 Color values:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Color Demo")
 
@@ -105,7 +105,7 @@ plot(close, color=myColor)
 
 Series is the core data type in Pine Script - it represents a time series that changes with each bar:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Series Demo")
 
@@ -126,7 +126,7 @@ plot(movingAverage, color=color.red)
 
 In Pine Script v5+, you can explicitly declare types:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Typed Variables")
 
@@ -149,7 +149,7 @@ plot(ma)
 
 You can change variable values using `:=`:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Reassignment Demo")
 
@@ -177,7 +177,7 @@ plot(runningTotal, title="Volume Total")
 
 The `var` keyword declares a variable that only initializes once:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("var vs let")
 
@@ -197,7 +197,7 @@ plot(counter2, color=color.green, title="With var")
 
 Similar to `var` but preserves value across bars during real-time updates:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("varip Demo")
 
@@ -214,7 +214,7 @@ plot(close)
 
 Use square brackets `[]` to access past values:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Historical Access")
 
@@ -238,7 +238,7 @@ plot(oneBarAgo, color=color.red, linewidth=2)
 
 ## Working with Multiple Timeframes
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Timeframe Demo")
 
@@ -257,7 +257,7 @@ plot(dailyClose, title="Daily", color=color.orange)
 
 ### Example 1: Price Change Calculator
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Price Change")
 
@@ -270,7 +270,7 @@ plot(percentChange, title="% Change", color=color.purple)
 
 ### Example 2: High/Low Range
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Range")
 
@@ -287,7 +287,7 @@ fill(plot1=highest, plot2=lowest, color=color.new(color.blue, 90))
 
 ### Example 3: Momentum Indicator
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Momentum")
 
@@ -305,7 +305,7 @@ plot(momentum, color=momentum > 0 ? color.green : color.red, title="Momentum")
 
 ### 1. Using = instead of :=
 
-```pinescript
+```tools/pine-script
 // Wrong
 x = 10
 x = x + 1  // This creates a new variable!
@@ -317,7 +317,7 @@ x := x + 1  // This reassigns the existing variable
 
 ### 2. Forgetting Series Nature
 
-```pinescript
+```tools/pine-script
 // Wrong - trying to use a single value
 fixedValue = ta.sma(close, 20)
 if fixedValue > 100  // This compares ALL bars, not just current
@@ -329,7 +329,7 @@ if smaValue > 100    // This works on the current bar
 
 ### 3. Not Initializing Variables
 
-```pinescript
+```tools/pine-script
 // Wrong - variable used before assignment
 if bar_index > 100
     value := close  // What is value before bar 100?
@@ -354,9 +354,9 @@ if bar_index > 100
 
 ## Next Steps
 
-- **[[pinescript/basics/operators]]** - Mathematical and logical operations
-- **[[pinescript/basics/functions]]** - Using Pine Script functions
-- **[[pinescript/basics/inputs]]** - User input handling
+- **[[tools/pine-script/basics/operators]]** - Mathematical and logical operations
+- **[[tools/pine-script/basics/functions]]** - Using Pine Script functions
+- **[[tools/pine-script/basics/inputs]]** - User input handling
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Pine Script Operators"
 description: "Learn mathematical, comparison, and logical operators in Pine Script for building trading indicators."
 tags: [pine-script, basics, operators, programming]
-slug: pinescript-basics-operators
+slug: tools/pine-script-basics-operators
 ---
 
 # Operators in Pine Script
@@ -15,7 +15,7 @@ Operators allow you to perform calculations, make comparisons, and combine condi
 
 ### Basic Math
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Arithmetic Operators")
 
@@ -42,7 +42,7 @@ plot(quotient)
 
 ### Practical Example: Average Price
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Typical Price")
 
@@ -56,7 +56,7 @@ plot(typicalPrice, title="Typical Price", color=color.blue)
 
 Used to compare values:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Comparison Operators")
 
@@ -93,7 +93,7 @@ Combine multiple conditions:
 
 Returns true if both conditions are true:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("AND Operator")
 
@@ -110,7 +110,7 @@ plotshape(buySignal, shape=shape.labelup, location=location.belowbar, color=colo
 
 Returns true if either condition is true:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("OR Operator")
 
@@ -127,7 +127,7 @@ plotshape(buySignal, shape=shape.labelup, location=location.belowbar, color=colo
 
 Negates a condition:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("NOT Operator")
 
@@ -144,7 +144,7 @@ plotshape(isRed, shape=shape.labeldown, location=location.abovebar, color=color.
 
 Conditional value selection:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Ternary Operator")
 
@@ -173,7 +173,7 @@ plot(sma50, color=color.gray)
 
 Returns true when series A crosses above series B:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Crossover")
 
@@ -191,7 +191,7 @@ plotshape(goldenCross, shape=shape.labelup, location=location.belowbar, color=co
 
 Returns true when series A crosses below series B:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Crossunder")
 
@@ -207,7 +207,7 @@ plotshape(deathCross, shape=shape.labeldown, location=location.abovebar, color=c
 
 Find highest/lowest values:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Highest/Lowest")
 
@@ -224,7 +224,7 @@ plot(lowestPrice, color=color.red)
 
 ## Math Functions
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Math Functions")
 
@@ -261,7 +261,7 @@ plot(close)
 
 ### Example 1: Bollinger Band Touch
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("BB Touch")
 
@@ -286,7 +286,7 @@ plotshape(touchLower, location=location.belowbar, shape=shape.labelup, color=col
 
 ### Example 2: Moving Average Trend
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("MA Trend")
 
@@ -309,7 +309,7 @@ plotchar(weakUptrend and not strongUptrend, char="△", color=color.green, locat
 
 ### Example 3: RSI Overbought/Oversold
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("RSI Zones")
 
@@ -345,7 +345,7 @@ Order of operations (highest to lowest):
 8. `and` - Logical AND
 9. `or` - Logical OR
 
-```pinescript
+```tools/pine-script
 // Without parentheses
 result = 10 + 5 * 2  // 20 (multiplication first)
 
@@ -357,9 +357,9 @@ result = (10 + 5) * 2  // 30 (addition first)
 
 ## Next Steps
 
-- **[[pinescript/basics/functions]]** - Learn to use and create functions
-- **[[pinescript/basics/inputs]]** - User input handling
-- **[[pinescript/indicators/moving-averages]]** - Build your first real indicator
+- **[[tools/pine-script/basics/functions]]** - Learn to use and create functions
+- **[[tools/pine-script/basics/inputs]]** - User input handling
+- **[[tools/pine-script/indicators/moving-averages]]** - Build your first real indicator
 
 ---
 

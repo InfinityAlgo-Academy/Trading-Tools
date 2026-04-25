@@ -2,7 +2,7 @@
 title: "Pine Script - Complete Programming Guide"
 description: "Master Pine Script from scratch. Complete guide to build custom TradingView indicators, strategies, and automated trading systems."
 tags: [pine-script, tradingview, programming, indicators, automation]
-slug: pinescript-guide
+slug: tools/pine-script-guide
 ---
 
 # Pine Script - Complete Programming Guide
@@ -13,26 +13,26 @@ Welcome to the most comprehensive Pine Script tutorial. This guide will take you
 
 ## Table of Contents
 
-1. [[pinescript/basics/introduction]]
-2. [[pinescript/basics/variables]]
-3. [[pinescript/basics/operators]]
-4. [[pinescript/basics/functions]]
-5. [[pinescript/basics/inputs]]
-6. [[pinescript/basics/plotting]]
-7. [[pinescript/indicators/moving-averages]]
-8. [[pinescript/indicators/rsi]]
-9. [[pinescript/indicators/macd]]
-10. [[pinescript/indicators/bollinger-bands]]
-11. [[pinescript/indicators/atr]]
-12. [[pinescript/indicators/volume]]
-13. [[pinescript/strategies/basics]]
-14. [[pinescript/strategies/entries-exits]]
-15. [[pinescript/strategies/stops]]
-16. [[pinescript/strategies/backtesting]]
-17. [[pinescript/advanced/timeframes]]
-18. [[pinescript/advanced/custom-functions]]
-19. [[pinescript/advanced/arrays]]
-20. [[pinescript/advanced/optimization]]
+1. [[tools/pine-script/basics/introduction]]
+2. [[tools/pine-script/basics/variables]]
+3. [[tools/pine-script/basics/operators]]
+4. [[tools/pine-script/basics/functions]]
+5. [[tools/pine-script/basics/inputs]]
+6. [[tools/pine-script/basics/plotting]]
+7. [[tools/pine-script/indicators/moving-averages]]
+8. [[tools/pine-script/indicators/rsi]]
+9. [[tools/pine-script/indicators/macd]]
+10. [[tools/pine-script/indicators/bollinger-bands]]
+11. [[tools/pine-script/indicators/atr]]
+12. [[tools/pine-script/indicators/volume]]
+13. [[tools/pine-script/strategies/basics]]
+14. [[tools/pine-script/strategies/entries-exits]]
+15. [[tools/pine-script/strategies/stops]]
+16. [[tools/pine-script/strategies/backtesting]]
+17. [[tools/pine-script/advanced/timeframes]]
+18. [[tools/pine-script/advanced/custom-functions]]
+19. [[tools/pine-script/advanced/arrays]]
+20. [[tools/pine-script/advanced/optimization]]
 
 ---
 
@@ -79,7 +79,7 @@ Pine Script has evolved significantly since its introduction:
 
 Let's start with the simplest possible indicator:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("My First Script")
 plot(close)
@@ -92,7 +92,7 @@ plot(close)
 
 ### Step-by-Step Explanation
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Simple Price Plot")
 
@@ -105,7 +105,7 @@ plot(sma20, color=color.blue, title="20 SMA")
 
 **Breaking down each element:**
 
-```pinescript
+```tools/pine-script
 //@version=6                           // 1. Version declaration
 indicator("Simple Price Plot")         // 2. Script name
 
@@ -150,7 +150,7 @@ Every Pine Script follows this structure:
 
 There are two main types of Pine Scripts:
 
-```pinescript
+```tools/pine-script
 // INDICATOR - For analysis only (no trading)
 indicator("My Indicator", overlay=true)
 
@@ -164,7 +164,7 @@ strategy("My Strategy", overlay=true)
 
 ### 1. Series vs Int vs Float
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Data Types Demo")
 
@@ -183,7 +183,7 @@ plot(seriesPrice)
 
 ### 2. Bar Context
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Bar Context")
 
@@ -202,7 +202,7 @@ isGreen = close > open
 
 ### 3. Built-in Variables
 
-```pinescript
+```tools/pine-script
 // Price data
 open    // Open price
 high    // High price
@@ -235,7 +235,7 @@ ta.rsi()      // Relative Strength Index
 
 **Problem:** Traditional for-loops aren't supported in v2
 **Solution:** Use vector operations:
-```pinescript
+```tools/pine-script
 // Wrong
 for i = 0 to 10
     sum := sum + close[i]
@@ -255,16 +255,16 @@ sum = math.sum(close, 11)
 
 Now that you understand the basics, continue with:
 
-1. **[[pinescript/basics/variables]]** - Deep dive into data types and variables
-2. **[[pinescript/basics/operators]]** - Mathematical and logical operations
-3. **[[pinescript/basics/functions]]** - Using and creating functions
-4. **[[pinescript/indicators/moving-averages]]** - Build your first indicator
+1. **[[tools/pine-script/basics/variables]]** - Deep dive into data types and variables
+2. **[[tools/pine-script/basics/operators]]** - Mathematical and logical operations
+3. **[[tools/pine-script/basics/functions]]** - Using and creating functions
+4. **[[tools/pine-script/indicators/moving-averages]]** - Build your first indicator
 
 ---
 
 ## Quick Reference
 
-```pinescript
+```tools/pine-script
 // Basic structure
 //@version=6
 indicator("Name", overlay=true)

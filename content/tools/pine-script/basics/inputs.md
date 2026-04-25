@@ -2,7 +2,7 @@
 title: "Pine Script Inputs"
 description: "Learn how to create user-configurable inputs in Pine Script to make your indicators interactive and customizable."
 tags: [pine-script, basics, inputs, programming]
-slug: pinescript-basics-inputs
+slug: tools/pine-script-basics-inputs
 ---
 
 # Inputs in Pine Script
@@ -24,7 +24,7 @@ Inputs make your scripts:
 
 ### Integer Input
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Integer Input")
 
@@ -37,7 +37,7 @@ plot(sma)
 
 ### Float Input
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Float Input")
 
@@ -50,7 +50,7 @@ plot(bb.bandsmiddle)
 
 ### Color Input
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Color Input")
 
@@ -64,7 +64,7 @@ plot(sma, color=close > sma ? upColor : downColor)
 
 ### Source Input
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Source Input")
 
@@ -77,7 +77,7 @@ plot(sma)
 
 ### Symbol Input
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Symbol Input")
 
@@ -92,7 +92,7 @@ plot(data)
 
 ### Timeframe Input
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Timeframe Input")
 
@@ -107,7 +107,7 @@ plot(data)
 
 ### Boolean Input
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Boolean Input")
 
@@ -127,7 +127,7 @@ if showEMA
 
 ### String Input
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("String Input")
 
@@ -139,7 +139,7 @@ plot(close)
 
 ### Resolution Input
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Resolution Input")
 
@@ -157,7 +157,7 @@ plot(data)
 
 Organize inputs into collapsible sections:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Input Groups")
 
@@ -181,7 +181,7 @@ plot(ma, color=maColor)
 
 Use dropdown menus with predefined options:
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Option Input")
 
@@ -203,7 +203,7 @@ plot(ma, title=maType)
 
 ### Input with Confirm
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Confirm Input")
 
@@ -215,7 +215,7 @@ plot(close)
 
 ### Input with Min/Max
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Bounded Input")
 
@@ -234,7 +234,7 @@ hline(overbought)
 
 ## Complete Example: Custom Indicator
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Custom RSI with Inputs", overlay=false)
 
@@ -308,15 +308,15 @@ if bgOn
 
 ## Next Steps
 
-- **[[pinescript/basics/plotting]]** - Advanced plotting techniques
-- **[[pinescript/indicators/moving-averages]]** - Build complete indicators
-- **[[pinescript/strategies/basics]]** - Start building strategies
+- **[[tools/pine-script/basics/plotting]]** - Advanced plotting techniques
+- **[[tools/pine-script/indicators/moving-averages]]** - Build complete indicators
+- **[[tools/pine-script/strategies/basics]]** - Start building strategies
 
 ---
 
 ## Quick Reference
 
-```pinescript
+```tools/pine-script
 // Basic inputs
 period = input.int(14, "Period")
 multiplier = input.float(2.0, "Multiplier")

@@ -2,7 +2,7 @@
 title: "Pine Script Functions"
 description: "Master Pine Script functions - from built-in functions to creating your own custom functions for reusable code."
 tags: [pine-script, basics, functions, programming]
-slug: pinescript-basics-functions
+slug: tools/pine-script-basics-functions
 ---
 
 # Functions in Pine Script
@@ -16,7 +16,7 @@ Functions are reusable blocks of code that perform specific tasks. Pine Script p
 Pine Script includes many built-in functions organized by category:
 
 ### Price Functions
-```pinescript
+```tools/pine-script
 ta.sma(series, length)      // Simple Moving Average
 ta.ema(series, length)      // Exponential Moving Average
 ta.wma(series, length)      // Weighted Moving Average
@@ -26,7 +26,7 @@ ta.swma(series)             // Symmetrically Weighted MA
 ```
 
 ### Indicator Functions
-```pinescript
+```tools/pine-script
 ta.rsi(series, length)              // Relative Strength Index
 ta.macd(series, fast, slow, signal) // MACD
 ta.stoch(source, k, d, smooth)      // Stochastic
@@ -37,7 +37,7 @@ ta.adx(diLength)                    // Average Directional Index
 ```
 
 ### Math Functions
-```pinescript
+```tools/pine-script
 math.abs(x)           // Absolute value
 math.sqrt(x)          // Square root
 math.pow(x, y)        // Power
@@ -53,7 +53,7 @@ math.sum(x, length)   // Sum over period
 
 ### Simple Moving Average
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("SMA Example")
 
@@ -66,7 +66,7 @@ plot(sma20, color=color.blue, title="20 SMA")
 
 ### Multiple Indicators
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Multiple Indicators")
 
@@ -92,7 +92,7 @@ hline(30, color=color.green, linestyle=hline.style_dashed)
 
 ### Basic Function Structure
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Custom Functions")
 
@@ -109,7 +109,7 @@ plot(close)
 
 ### Function with Multiple Returns
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Multi-Return Function")
 
@@ -130,7 +130,7 @@ plot(tp, color=color.green)
 
 ### Function with Conditional Logic
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Conditional Function")
 
@@ -156,7 +156,7 @@ plot(close)
 
 ### Example 1: Custom Moving Average
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Custom MA")
 
@@ -177,7 +177,7 @@ plot(ma50, color=color.red, title="Custom SMA 50")
 
 ### Example 2: Trend Detection Function
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Trend Function")
 
@@ -200,7 +200,7 @@ plot(sma50, color=color.red)
 
 ### Example 3: Support/Resistance Function
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Support Resistance")
 
@@ -221,7 +221,7 @@ plot(close)
 
 ### Example 4: Signal Generation Function
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Signal Function")
 
@@ -248,7 +248,7 @@ hline(30)
 
 ### 1. Keep Functions Simple
 
-```pinescript
+```tools/pine-script
 // Good - single responsibility
 calculateSMA(src, length) =>
     ta.sma(src, length)
@@ -265,7 +265,7 @@ myIndicator(src, length) =>
 
 ### 2. Use Type Annotations
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Typed Functions")
 
@@ -283,7 +283,7 @@ plot(sma)
 
 ### 3. Document Complex Functions
 
-```pinescript
+```tools/pine-script
 //@version=6
 indicator("Documented Function")
 
@@ -349,15 +349,15 @@ calculateRiskPosition(float accountBalance, float riskPercent, float stopLoss) =
 
 ## Next Steps
 
-- **[[pinescript/basics/inputs]]** - User input handling
-- **[[pinescript/basics/plotting]]** - Advanced plotting
-- **[[pinescript/indicators/moving-averages]]** - Build complete indicators
+- **[[tools/pine-script/basics/inputs]]** - User input handling
+- **[[tools/pine-script/basics/plotting]]** - Advanced plotting
+- **[[tools/pine-script/indicators/moving-averages]]** - Build complete indicators
 
 ---
 
 ## Quick Reference
 
-```pinescript
+```tools/pine-script
 // Call built-in function
 sma = ta.sma(close, 20)
 
