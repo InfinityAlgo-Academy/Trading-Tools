@@ -39,9 +39,21 @@ blockquote {
 }
 
 ::selection {
-  background: rgba(255, 255, 0, 0.5);
+  background: rgba(249, 115, 22, 0.5);
 }
 
 ::-moz-selection {
-  background: rgba(255, 255, 0, 0.5);
+  background: rgba(249, 115, 22, 0.5);
+}
+
+explorer-tree .node:hover {
+  background: rgba(249, 115, 22, 0.15);
+}
+
+explorer-tree .node.active {
+  background: rgba(249, 115, 22, 0.25);
+}
+
+.explorer-file.active {
+  background: rgba(249, 115, 22, 0.3);
 }
