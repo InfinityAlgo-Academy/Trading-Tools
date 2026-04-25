@@ -7,7 +7,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Trading Tools",
-    pageTitleSuffix: "",
+    pageTitleSuffix: " - Complete Trading Education Platform",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
