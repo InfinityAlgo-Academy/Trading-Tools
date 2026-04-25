@@ -438,9 +438,9 @@ plot(slowMA, color=color.red)
 
 ## Next Steps
 
-- **[[pinescript-advanced-timeframes]]** - Multi-timeframe analysis
-- **[[pinescript-advanced-custom-functions]]** - Advanced coding
-- **[[pinescript-advanced-arrays]]** - Arrays and data structures
+- **[[tools/pine-script/advanced/timeframes]]** - Multi-timeframe analysis
+- **[[tools/pine-script/advanced/custom-functions]]** - Advanced coding
+- **[[tools/pine-script/advanced/arrays]]** - Arrays and data structures
 
 ---
 

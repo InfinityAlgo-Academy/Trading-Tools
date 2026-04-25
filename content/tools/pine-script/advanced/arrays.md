@@ -447,9 +447,9 @@ plotshape(sellSignal, location=location.abovebar, style=shape.labeldown, color=c
 
 ## Next Steps
 
-- **[[pinescript-advanced-optimization]]** - Optimize your code
-- **[[pinescript-strategies-examples]]** - More strategies
-- **[[pinescript-indicators-volume]]** - More indicators
+- **[[tools/pine-script/advanced/optimization]]** - Optimize your code
+- **[[tools/pine-script/strategies/examples]]** - More strategies
+- **[[tools/pine-script/indicators/volume]]** - More indicators
 
 ---
 

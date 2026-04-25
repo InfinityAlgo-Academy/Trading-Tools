@@ -481,9 +481,9 @@ plot(ta.sma(close, 20))
 
 ## Next Steps
 
-- **[[pinescript-strategies-stops]]** - Advanced stop loss techniques
-- **[[pinescript-strategies-backtesting]]** - Backtesting and optimization
-- **[[pinescript-strategies-examples]]** - More strategy examples
+- **[[tools/pine-script/strategies/stops]]** - Advanced stop loss techniques
+- **[[tools/pine-script/strategies/backtesting]]** - Backtesting and optimization
+- **[[tools/pine-script/strategies/examples]]** - More strategy examples
 
 ---
 

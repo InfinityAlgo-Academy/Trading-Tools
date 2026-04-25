@@ -346,9 +346,9 @@ dailyClose = request.security(syminfo.tickerid, "D", close[1])
 
 ## Next Steps
 
-- **[[pinescript-advanced-custom-functions]]** - Create custom functions
-- **[[pinescript-advanced-arrays]]** - Learn arrays
-- **[[pinescript-advanced-optimization]]** - Optimize strategies
+- **[[tools/pine-script/advanced/custom-functions]]** - Create custom functions
+- **[[tools/pine-script/advanced/arrays]]** - Learn arrays
+- **[[tools/pine-script/advanced/optimization]]** - Optimize strategies
 
 ---
 

@@ -449,9 +449,9 @@ plot(sma200)
 
 ## Next Steps
 
-- **[[pinescript-indicators-bollinger-bands]]** - Learn Bollinger Bands
-- **[[pinescript-indicators-atr]]** - Learn ATR
-- **[[pinescript-strategies-basics]]** - Build strategies
+- **[[tools/pine-script/indicators/bollinger-bands]]** - Learn Bollinger Bands
+- **[[tools/pine-script/indicators/atr]]** - Learn ATR
+- **[[tools/pine-script/strategies/basics]]** - Build strategies
 
 ---
 

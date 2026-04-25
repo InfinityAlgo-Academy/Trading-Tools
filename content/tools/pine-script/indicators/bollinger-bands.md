@@ -435,9 +435,9 @@ plot(bb.lower)
 
 ## Next Steps
 
-- **[[pinescript-indicators-atr]]** - Learn ATR indicator
-- **[[pinescript-indicators-volume]]** - Learn Volume analysis
-- **[[pinescript-strategies-basics]]** - Build strategies
+- **[[tools/pine-script/indicators/atr]]** - Learn ATR indicator
+- **[[tools/pine-script/indicators/volume]]** - Learn Volume analysis
+- **[[tools/pine-script/strategies/basics]]** - Build strategies
 
 ---
 

@@ -499,9 +499,9 @@ if ta.crossover(ta.sma(close, 20), ta.sma(close, 50))
 
 ## Next Steps
 
-- **[[pinescript-strategies-entries-exits]]** - Advanced entry/exit logic
-- **[[pinescript-strategies-stops]]** - Stop loss and take profit
-- **[[pinescript-strategies-backtesting]]** - Backtesting and optimization
+- **[[tools/pine-script/strategies/entries-exits]]** - Advanced entry/exit logic
+- **[[tools/pine-script/strategies/stops]]** - Stop loss and take profit
+- **[[tools/pine-script/strategies/backtesting]]** - Backtesting and optimization
 
 ---
 

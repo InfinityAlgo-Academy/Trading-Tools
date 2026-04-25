@@ -490,9 +490,9 @@ plot(sma50, color=color.blue)
 
 ## Next Steps
 
-- **[[pinescript-advanced-optimization]]** - Optimize your strategies
-- **[[pinescript-strategies-backtesting]]** - Proper backtesting
-- **[[pinescript-strategies-stops]]** - Advanced stops
+- **[[tools/pine-script/advanced/optimization]]** - Optimize your strategies
+- **[[tools/pine-script/strategies/backtesting]]** - Proper backtesting
+- **[[tools/pine-script/strategies/stops]]** - Advanced stops
 
 ---
 

@@ -437,9 +437,9 @@ if showSignals
 
 ## Next Steps
 
-- **[[pinescript-indicators-rsi]]** - Learn RSI indicator
-- **[[pinescript-indicators-macd]]** - Learn MACD indicator
-- **[[pinescript-strategies-basics]]** - Build trading strategies
+- **[[tools/pine-script/indicators/rsi]]** - Learn RSI indicator
+- **[[tools/pine-script/indicators/macd]]** - Learn MACD indicator
+- **[[tools/pine-script/strategies/basics]]** - Build trading strategies
 
 ---
 

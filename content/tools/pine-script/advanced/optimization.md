@@ -396,8 +396,8 @@ plot(maS, color=color.red)
 
 ## Next Steps
 
-- **[[pinescript-strategies-backtesting]]** - Proper backtesting
-- **[[pinescript-strategies-stops]]** - Advanced stops
+- **[[tools/pine-script/strategies/backtesting]]** - Proper backtesting
+- **[[tools/pine-script/strategies/stops]]** - Advanced stops
 - Build and test your strategies
 
 ---

@@ -382,9 +382,9 @@ plot(ema20)
 
 ## Next Steps
 
-- **[[pinescript-indicators-volume]]** - Learn Volume analysis
-- **[[pinescript-strategies-stops]]** - Master stop loss techniques
-- **[[pinescript-strategies-backtesting]]** - Backtest your strategies
+- **[[tools/pine-script/indicators/volume]]** - Learn Volume analysis
+- **[[tools/pine-script/strategies/stops]]** - Master stop loss techniques
+- **[[tools/pine-script/strategies/backtesting]]** - Backtest your strategies
 
 ---
 

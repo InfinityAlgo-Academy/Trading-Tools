@@ -363,9 +363,9 @@ plotshape(sellSignal, location=location.abovebar, style=shape.labeldown, color=c
 
 ## Next Steps
 
-- **[[pinescript-advanced-arrays]]** - Master arrays
-- **[[pinescript-advanced-optimization]]** - Optimize code
-- **[[pinescript-strategies-examples]]** - More strategies
+- **[[tools/pine-script/advanced/arrays]]** - Master arrays
+- **[[tools/pine-script/advanced/optimization]]** - Optimize code
+- **[[tools/pine-script/strategies/examples]]** - More strategies
 
 ---
 

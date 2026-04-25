@@ -438,9 +438,9 @@ plot(ta.sma(close, 20))
 
 ## Next Steps
 
-- **[[pinescript-strategies-backtesting]]** - Backtest with stops
-- **[[pinescript-strategies-examples]]** - More complete strategies
-- **[[pinescript-advanced-optimization]]** - Optimize parameters
+- **[[tools/pine-script/strategies/backtesting]]** - Backtest with stops
+- **[[tools/pine-script/strategies/examples]]** - More complete strategies
+- **[[tools/pine-script/advanced/optimization]]** - Optimize parameters
 
 ---
 

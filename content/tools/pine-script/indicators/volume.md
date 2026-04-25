@@ -388,9 +388,9 @@ hline(20)
 
 ## Next Steps
 
-- **[[pinescript-strategies-basics]]** - Build strategies
-- **[[pinescript-strategies-entries-exits]]** - Entry/Exit logic
-- **[[pinescript-strategies-backtesting]]** - Backtest strategies
+- **[[tools/pine-script/strategies/basics]]** - Build strategies
+- **[[tools/pine-script/strategies/entries-exits]]** - Entry/Exit logic
+- **[[tools/pine-script/strategies/backtesting]]** - Backtest strategies
 
 ---
 

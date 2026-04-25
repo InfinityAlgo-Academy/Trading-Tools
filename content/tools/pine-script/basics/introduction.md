@@ -159,10 +159,10 @@ plotshape(sellSignal, location=location.abovebar, style=shape.labeldown, color=c
 
 Continue learning with:
 
-1. **[[pinescript-basics-variables]]** - Data types and variables
-2. **[[pinescript-basics-operators]]** - Math and logic
-3. **[[pinescript-basics-functions]]** - Using functions
-4. **[[pinescript-basics-inputs]]** - User inputs
+1. **[[tools/pine-script/basics/variables]]** - Data types and variables
+2. **[[tools/pine-script/basics/operators]]** - Math and logic
+3. **[[tools/pine-script/basics/functions]]** - Using functions
+4. **[[tools/pine-script/basics/inputs]]** - User inputs
 
 ---
 

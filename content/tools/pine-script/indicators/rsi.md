@@ -427,9 +427,9 @@ hline(oversold)
 
 ## Next Steps
 
-- **[[pinescript-indicators-macd]]** - Learn MACD
-- **[[pinescript-indicators-bollinger-bands]]** - Learn Bollinger Bands
-- **[[pinescript-strategies-basics]]** - Build strategies
+- **[[tools/pine-script/indicators/macd]]** - Learn MACD
+- **[[tools/pine-script/indicators/bollinger-bands]]** - Learn Bollinger Bands
+- **[[tools/pine-script/strategies/basics]]** - Build strategies
 
 ---
 
