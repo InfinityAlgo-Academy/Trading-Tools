@@ -1,280 +1,128 @@
 ---
-title: "Trading Tools Knowledge Base"
-layout: default
+title: "Trading Tools - Start Here"
 tags:
   - trading
-  - technical-analysis
   - education
-  - knowledge-base
+  - start
 ---
 
-# Trading Tools Knowledge Base
+# Start Here
 
-A comprehensive collection of trading articles covering technical analysis, indicators, and implementations across multiple platforms.
-
----
-
-## Table of Contents
-
-1. [Technical Analysis](#technical-analysis)
-   - [Moving Averages](#moving-averages)
-   - [Oscillators](#oscillators)
-   - [Pivot Points](#pivot-points)
-
-2. [Risk Management](#risk-management)
-
-3. [Trading Psychology](#trading-psychology)
-
-4. [Trading Platforms](#trading-platforms)
-
-5. [Strategy Development](#strategy-development)
+Welcome to **Trading Tools** — your complete trading knowledge platform.
 
 ---
 
-## Technical Analysis
+## Starting Your Journey
 
-### Moving Averages
+**If you're new, start here:**
 
-| Article | Description | Path |
-|---------|------------|------|
-| Complete Guide | Theory, formulas, types (SMA, EMA, WMA, SMMA, TEMA, VWMA, Hull MA) | [Technical-Analysis/Moving-Averages/01-Complete-Guide.md](Technical-Analysis/Moving-Averages/01-Complete-Guide.md) |
-| Python Implementation | pandas/numpy code for all MA types | [Technical-Analysis/Moving-Averages/02-Python-Implementation.md](Technical-Analysis/Moving-Averages/02-Python-Implementation.md) |
-| Pine Script v5 | TradingView indicator code | [Technical-Analysis/Moving-Averages/03-Pine-Script.md](Technical-Analysis/Moving-Averages/03-Pine-Script.md) |
-| Trading Strategies | 12+ MA-based strategies | [Technical-Analysis/Moving-Averages/04-Strategies.md](Technical-Analysis/Moving-Averages/04-Strategies.md) |
+>>> [00-start-here/index.md](./00-start-here/) >>>
 
-**Topics Covered:**
-- Simple Moving Average (SMA)
-- Exponential Moving Average (EMA)
-- Weighted Moving Average (WMA)
-- Smoothed Moving Average (SMMA)
-- Triple EMA (TEMA)
-- Volume-Weighted MA (VWMA)
-- Hull Moving Average (HMA)
-- Moving Average Crossovers
-- MA Ribbons & Strategies
+This hub includes:
+- What trading is
+- How this site works
+- Beginner roadmap (12 weeks)
+- Advanced roadmap
+- Glossary
 
 ---
 
-### Oscillators
+## Site Navigation
 
-| Article | Description | Path |
-|---------|------------|------|
-| Complete Guide | Theory, formulas, interpretation | [Technical-Analysis/Oscillators/01-Complete-Guide.md](Technical-Analysis/Oscillators/01-Complete-Guide.md) |
-| Python Implementation | pandas/numpy code | [Technical-Analysis/Oscillators/02-Python-Implementation.md](Technical-Analysis/Oscillators/02-Python-Implementation.md) |
-| Pine Script v5 | TradingView code | [Technical-Analysis/Oscillators/03-PineScript-v5.md](Technical-Analysis/Oscillators/03-PineScript-v5.md) |
-| MQL4 | MetaTrader 4 code | [Technical-Analysis/Oscillators/04-MQL4.md](Technical-Analysis/Oscillators/04-MQL4.md) |
-| MQL5 | MetaTrader 5 code | [Technical-Analysis/Oscillators/05-MQL5.md](Technical-Analysis/Oscillators/05-MQL5.md) |
-| ATR & ADX | Volatility & trend strength | [Technical-Analysis/Oscillators/06-ATR-ADX.md](Technical-Analysis/Oscillators/06-ATR-ADX.md) |
-| Momentum Oscillators | ROC, AO, Momentum | [Technical-Analysis/Oscillators/07-Momentum-Oscillators.md](Technical-Analysis/Oscillators/07-Momentum-Oscillators.md) |
-| Channel Indicators | Keltner, Donchian, Bollinger | [Technical-Analysis/Oscillators/08-Channel-Indicators.md](Technical-Analysis/Oscillators/08-Channel-Indicators.md) |
-| Advanced Tools | Ichimoku, Parabolic SAR | [Technical-Analysis/Oscillators/09-Advanced-Tools.md](Technical-Analysis/Oscillators/09-Advanced-Tools.md) |
-
-**Topics Covered:**
-- RSI (Relative Strength Index)
-- CCI (Commodity Channel Index)
-- MACD (Moving Average Convergence Divergence)
-- Stochastic Oscillator
-- Williams %R
-- ATR (Average True Range)
-- ADX (Average Directional Index)
-- ROC (Rate of Change)
-- Awesome Oscillator
-- Keltner Channel
-- Donchian Channel
-- Bollinger Bands
-- Ichimoku Cloud
-- Parabolic SAR
+| Folder | Topic | Status |
+|--------|-------|--------|
+| [[00-start-here/]] | Getting Started | ✅ |
+| [[01-foundations/]] | Core Concepts | ✅ |
+| [[02-markets/]] | Financial Markets | ✅ |
+| [[03-tools/]] | Trading Tools | ✅ |
+| [[04-analysis/]] | Market Analysis | ✅ |
+| [[05-strategies/]] | Trading Strategies | ✅ |
+| [[06-risk-management/]] | Risk Management | ✅ |
+| [[07-psychology/]] | Trading Psychology | ✅ |
+| [[08-advanced/]] | Advanced Concepts | ✅ |
+| [[09-practice/]] | Practice & Training | ✅ |
+| [[10-resources/]] | Resources & Templates | ✅ |
+| [[11-courses/]] | Premium Courses | ✅ |
+| [[12-case-studies/]] | Case Studies | ✅ |
 
 ---
 
-### Pivot Points
+## Quick Start Guides
 
-| Article | Description | Path |
-|---------|------------|------|
-| Complete Guide | Types & formulas | [Technical-Analysis/Pivot-Points/01-Complete-Guide.md](Technical-Analysis/Pivot-Points/01-Complete-Guide.md) |
-| Python | pandas implementation | [Technical-Analysis/Pivot-Points/02-Python-Implementation.md](Technical-Analysis/Pivot-Points/02-Python-Implementation.md) |
-| JavaScript | Node.js/React implementation | [Technical-Analysis/Pivot-Points/03-JavaScript-Implementation.md](Technical-Analysis/Pivot-Points/03-JavaScript-Implementation.md) |
-| Pine Script v5 | TradingView indicator | [Technical-Analysis/Pivot-Points/04-PineScript-v5.md](Technical-Analysis/Pivot-Points/04-PineScript-v5.md) |
-| MQL4 & MQL5 | MetaTrader code | [Technical-Analysis/Pivot-Points/05-MQL4-MQL5.md](Technical-Analysis/Pivot-Points/05-MQL4-MQL5.md) |
+### New to Trading?
 
-**Topics Covered:**
-- Classic Pivot Points
-- Fibonacci Pivot Points
-- Camarilla Pivot Points
-- DeMark Pivot Points
-- Woodie Pivot Points
-- Pivot Trading Strategies
+```
+1. Read: 00-start-here/what-is-trading.md
+2. Read: 00-start-here/how-this-site-works.md
+3. Follow: 00-start-here/roadmap-beginner.md
+```
 
----
+### Have Experience?
 
-## Risk Management
+```
+1. Review: 01-foundations/index.md
+2. Choose: 05-strategies/index.md
+3. Focus: 06-risk-management/index.md
+```
 
-| Article | Description | Path |
-|---------|------------|------|
-| Introduction | Core concepts & rules | [Risk-Management/01-Introduction.md](Risk-Management/01-Introduction.md) |
-| Position Sizing | Calculations & methods | [Risk-Management/02-Position-Sizing.md](Risk-Management/02-Position-Sizing.md) |
+### Ready to Go Deep?
 
-**Topics Covered:**
-- Capital preservation
-- Risk-reward ratio
-- Position sizing methods (Fixed Fractional, Fixed Ratio, Volatility-based, Kelly Criterion)
-- Stop-loss placement
-- Daily/weekly loss limits
-- Correlation & diversification
+```
+1. Study: 08-advanced/index.md
+2. Practice: 09-practice/index.md
+3. Analyze: 12-case-studies/index.md
+```
 
 ---
 
-## Trading Psychology
+## Core Learning Paths
 
-| Article | Description | Path |
-|---------|------------|------|
-| Introduction | Mental factors in trading | [Trading-Psychology/01-Introduction.md](Trading-Psychology/01-Introduction.md) |
-| Discipline | Execution & habits | [Trading-Psychology/02-Discipline.md](Trading-Psychology/02-Discipline.md) |
+### Path 1: Foundations → Markets → Strategies
 
-**Topics Covered:**
-- Emotional cycle in trading
-- Common psychological pitfalls (Fear, Greed, Hope, Revenge)
-- Trading mindset (Acceptance, Discipline, Patience, Flexibility)
-- Building psychological strength
-- Trading plans & journaling
+```
+01-foundations/ → 02-markets/ → 04-analysis/ → 05-strategies/
+```
 
----
+### Path 2: Psychology → Risk → Systems
 
-## Trading Platforms
+```
+07-psychology/ → 06-risk-management/ → 05-strategies/
+```
 
-| Article | Description | Path |
-|---------|------------|------|
-| Introduction | Platform types & features | [Trading-Platforms/01-Introduction.md](Trading-Platforms/01-Introduction.md) |
-| Automation | API & automated trading | [Trading-Platforms/02-Automation.md](Trading-Platforms/02-Automation.md) |
+### Path 3: Analysis → Tools → Practice
 
-**Topics Covered:**
-- Direct access brokers
-- Proprietary platforms
-- Retail platforms
-- Platform comparison
-- API trading
-- Automated strategy development
+```
+04-analysis/ → 03-tools/ → 09-practice/
+```
 
 ---
 
-## Strategy Development
+## Essential Resources
 
-| Article | Description | Path |
-|---------|------------|------|
-| Introduction | Strategy basics | [Strategy-Development/01-Introduction.md](Strategy-Development/01-Introduction.md) |
-| Backtesting | Historical testing | [Strategy-Development/02-Backtesting.md](Strategy-Development/02-Backtesting.md) |
-
-**Topics Covered:**
-- Strategy types (Technical, Fundamental, Quantitative)
-- Development process
-- Backtesting methods
-- Walk-forward analysis
-- Monte Carlo simulation
+- [[00-start-here/roadmap-beginner.md]] — 12-week beginner program
+- [[06-risk-management/position-sizing.md]] — Position sizing calculator
+- [[10-resources/pre-trade-checklist.md]] — Pre-trade checklist
+- [[10-resources/trade-log-template.md]] — Journal template
 
 ---
 
-## Programming Languages Reference
+## Tools & Platforms
 
-### Python
-- Data analysis & backtesting
-- Indicators & signals
-- yfinance for data
+**Quick Reference:**
 
-### JavaScript
-- Web applications
-- Node.js APIs
-- React components
-
-### Pine Script v5
-- TradingView indicators
-- Strategies
-- Alerts
-
-### MQL4
-- MetaTrader 4 indicators
-- Expert Advisors
-
-### MQL5
-- MetaTrader 5 indicators
-- Expert Advisors
+- [[03-tools/charting-tools.md]] — Best charting platforms
+- [[03-tools/platforms.md]] — Broker recommendations
+- [[10-resources/indicator-cheat-sheet.md]] — Indicator quick reference
+- [[10-resources/risk-rules-quick-reference.md]] — Risk rules summary
 
 ---
 
-## Getting Started
+## Need Help?
 
-### For Beginners
-1. Start with [Risk-Management/01-Introduction.md](Risk-Management/01-Introduction.md)
-2. Read [Trading-Psychology/01-Introduction.md](Trading-Psychology/01-Introduction.md)
-3. Learn [Technical-Analysis/Moving-Averages/01-Complete-Guide.md](Technical-Analysis/Moving-Averages/01-Complete-Guide.md)
-
-### For Intermediate Traders
-1. Study [Technical-Analysis/Oscillators/01-Complete-Guide.md](Technical-Analysis/Oscillators/01-Complete-Guide.md)
-2. Read [Strategy-Development/01-Introduction.md](Strategy-Development/01-Introduction.md)
-3. Learn [Backtesting](Strategy-Development/02-Backtesting.md)
-
-### For Programmers
-Choose your preferred implementation:
-
-| Platform | Language | Start With |
-|----------|----------|----------|
-| Data Science | Python | [Python Implementation](Technical-Analysis/Moving-Averages/02-Python-Implementation.md) |
-| Web | JavaScript | [JavaScript Implementation](Technical-Analysis/Pivot-Points/03-JavaScript-Implementation.md) |
-| TradingView | Pine Script | [Pine Script](Technical-Analysis/Moving-Averages/03-Pine-Script.md) |
-| MetaTrader 4 | MQL4 | [MQL4](Technical-Analysis/Oscillators/04-MQL4.md) |
-| MetaTrader 5 | MQL5 | [MQL5](Technical-Analysis/Oscillators/05-MQL5.md) |
+- Start with [[00-start-here/how-this-site-works.md]]
+- Browse the [[glossary|00-start-here/glossary.md]]
+- Review [[10-resources/index.md]]
 
 ---
 
-## Article Index (Alphabetical)
-
-| Article | Category | Language |
-|---------|----------|----------|
-| Advanced Tools (Ichimoku, Parabolic SAR) | Oscillators | All |
-| ATR & ADX | Oscillators | All |
-| Backtesting | Strategy | - |
-| Camarilla Pivots | Pivot Points | All |
-| Channel Indicators | Oscillators | All |
-| Complete Guide (Oscillators) | Oscillators | - |
-| Complete Guide (Moving Averages) | Mov Avg | - |
-| Complete Guide (Pivot Points) | Pivot Points | - |
-| Discipline | Psychology | - |
-| Fibonacci Pivots | Pivot Points | All |
-| Introduction (Moving Averages) | Mov Avg | - |
-| Introduction (Oscillators) | Oscillators | - |
-| Introduction (Pivot Points) | Pivot Points | - |
-| Introduction (Psychology) | Psychology | - |
-| Introduction (Risk) | Risk | - |
-| Introduction (Strategy) | Strategy | - |
-| Introduction (Trading) | Platforms | - |
-| JavaScript Pivots | Pivot Points | JS |
-| MQL4 Oscillators | Oscillators | MQL4 |
-| MQL5 Oscillators | Oscillators | MQL5 |
-| MQL4/MQL5 Pivots | Pivot Points | MQL |
-| Momentum Oscillators | Oscillators | All |
-| Pine Script Pivots | Pivot Points | Pine |
-| Pine Script Oscillators | Oscillators | Pine |
-| Position Sizing | Risk | - |
-| Python Moving Avg | Mov Avg | Python |
-| Python Oscillators | Oscillators | Python |
-| Python Pivots | Pivot Points | Python |
-| Strategies (Moving Averages) | Mov Avg | - |
-| Trading Platforms | Platforms | All |
-
----
-
-## Quick Links
-
-- [All Moving Averages Articles](Technical-Analysis/Moving-Averages/)
-- [All Oscillators Articles](Technical-Analysis/Oscillators/)
-- [All Pivot Points Articles](Technical-Analysis/Pivot-Points/)
-- [Risk Management Articles](Risk-Management/)
-- [Trading Psychology Articles](Trading-Psychology/)
-- [Trading Platforms Articles](Trading-Platforms/)
-- [Strategy Development Articles](Strategy-Development/)
-
----
-
-*Last Updated: 2026*
-*Total Articles: 26*
-*Categories: 5*
-*Languages: 5*
+*Your trading journey starts here.*
