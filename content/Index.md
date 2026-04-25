@@ -14,175 +14,120 @@ tags:
 slug: index
 ---
 
-# 📈 Trading Tools
+# Trading Tools
 
-## Complete Trading Education Platform
-
-Your journey from **zero to profitable trader** starts here. Master trading concepts, strategies, and psychology with our comprehensive learning system.
+Your complete trading education platform. From zero to profitable trader.
 
 ---
 
-## 🚀 Getting Started
+## Start Here
 
-**New to trading?** Begin your journey here:
+**New to trading?**
 
-> **[[start-here/What-Is-Trading]]** — What is trading and how it works
+>>> [[start-here/What-Is-Trading]] >>>
 
 ---
 
-## 📚 Learning Paths
+## Quick Navigation
+
+| Section | What You'll Learn | Start |
+|---------|-------------------|-------|
+| [[start-here/]] | Getting Started, Roadmaps, Glossary | START |
+| [[foundations/]] | Market Structure, Volatility, Liquidity | Phase 1 |
+| [[markets/]] | Forex, Crypto, Stocks, Indices | Phase 2 |
+| [[tools/]] | Indicators, Platforms, PineScript | Phase 2 |
+| [[analysis/]] | Technical, Fundamental, Sentiment | Phase 3 |
+| [[strategies/]] | Trend Following, Breakout, SMC | Phase 3 |
+| [[risk-management/]] | Position Sizing, Stops, R:R | Phase 4 |
+| [[psychology/]] | Mindset, Discipline, Journaling | Phase 4 |
+| [[advanced/]] | Smart Money, Order Flow, Algo | Advanced |
+| [[practice/]] | Backtesting, Demo Trading | Practice |
+| [[resources/]] | Checklists, Templates, References | Tools |
+| [[case-studies/]] | Winning/Losing Trades, Analysis | Learn |
+| [[courses/]] | Premium Courses | Training |
+
+---
+
+## Learning Paths
 
 ### Beginner Path (12 Weeks)
 
-| Week | Focus | Topics |
-|------|-------|--------|
-| 1-3 | Foundations | [[foundations/Market-Structure]] → [[foundations/Volatility]] → [[foundations/Liquidity]] |
-| 4-6 | Tools | [[tools/Indicators]] → [[tools/RSI]] → [[tools/MACD]] |
-| 7-9 | Strategies | [[strategies/Trend-Following]] → [[strategies/Entry-Strategies]] → [[strategies/Exit-Strategies]] |
-| 10-12 | Mastery | [[risk-management/Position-Sizing]] → [[psychology/Trading-Mindset]] → [[practice/Journaling]] |
+```
+Week 1-3:  [[foundations/Market-Structure]] → [[foundations/Volatility]] → [[foundations/Liquidity]]
+Week 4-6:  [[tools/Indicators]] → [[tools/RSI]] → [[tools/MACD]]
+Week 7-9:  [[strategies/Trend-Following]] → [[strategies/Entry-Strategies]] → [[strategies/Exit-Strategies]]
+Week 10-12: [[risk-management/Position-Sizing]] → [[psychology/Trading-Mindset]] → [[practice/Journaling]]
+```
 
----
+### Core Concepts
 
-## 📖 Course Sections
+- **[[foundations/Market-Structure]]** — Trends, ranges, support/resistance
+- **[[foundations/Volatility]]** — Price movement, ATR
+- **[[foundations/Liquidity]]** — Order flow, stops
+- **[[foundations/Timeframes]]** — Chart timeframes
 
-### Phase 1: Foundations
+### Markets
 
-<div class="grid">
+- **[[markets/Forex]]** — Currency trading
+- **[[markets/Crypto]]** — Bitcoin, altcoins
+- **[[markets/Stocks]]** — Equity trading
+- **[[markets/Indices]]** — S&P 500, NASDAQ
 
-<div>
+### Analysis
 
-**Core Concepts**
+- **[[analysis/Technical-Analysis]]** — Charts, patterns
+- **[[analysis/Price-Action]]** — Candlesticks, patterns
+- **[[analysis/Fundamental-Analysis]]** — News, earnings
+- **[[analysis/Sentiment-Analysis]]** — Market mood
 
-- [[foundations/Market-Structure]] — Trends, ranges, support/resistance
-- [[foundations/Volatility]] — Price movement, ATR
-- [[foundations/Liquidity]] — Order flow, stops
-- [[foundations/Timeframes]] — Chart timeframes
-
-</div>
-
-<div>
-
-**Markets**
-
-- [[markets/Forex]] — Currency trading
-- [[markets/Crypto]] — Bitcoin, altcoins
-- [[markets/Stocks]] — Equity trading
-- [[markets/Indices]] — S&P 500, NASDAQ
-
-</div>
-
-</div>
-
----
-
-### Phase 2: Analysis & Tools
-
-<div class="grid">
-
-<div>
-
-**Technical Analysis**
-
-- [[analysis/Technical-Analysis]] — Charts, patterns
-- [[analysis/Price-Action]] — Candlesticks, patterns
-- [[analysis/Fundamental-Analysis]] — News, earnings
-- [[analysis/Sentiment-Analysis]] — Market mood
-
-</div>
-
-<div>
-
-**Tools & Indicators**
-
-- [[tools/Indicators]] — RSI, MACD, Moving Averages
-- [[tools/Charting-Tools]] — TradingView, MetaTrader
-- [[tools/Platforms]] — Brokers
-- [[tools/Pivot-Points]] — Key levels
-
-</div>
-
-</div>
-
----
-
-### Phase 3: Strategies
+### Strategies
 
 - **[[strategies/Trend-Following]]** — Trade with trend
 - **[[strategies/Breakout-Strategy]]** — Momentum breakouts
 - **[[strategies/SMC]]** — Smart Money Concepts
-- **Trading Styles:** [[strategies/Scalping]] → [[strategies/Day-Trading]] → [[strategies/Swing-Trading]] → [[strategies/Position-Trading]]
+- **[[strategies/Scalping]]** → [[strategies/Day-Trading]] → [[strategies/Swing-Trading]] → [[strategies/Position-Trading]]
 
----
+### Risk Management
 
-### Phase 4: Risk & Psychology
+- **[[risk-management/Position-Sizing]]** — Calculate position size
+- **[[risk-management/Risk-Reward]]** — Risk/reward ratio
+- **[[risk-management/Stop-Loss]]** — Stop placement
+- **[[risk-management/Drawdown]]** — Manage losses
 
-<div class="grid">
+### Psychology
 
-<div>
+- **[[psychology/Trading-Mindset]]** — Think like a pro
+- **[[psychology/Emotional-Control]]** — Manage emotions
+- **[[psychology/Trading-Journal]]** — Track progress
+- **[[psychology/Trading-Discipline]]** — Follow rules
 
-**Risk Management**
+### Tools
 
-- [[risk-management/Position-Sizing]] — Calculate position size
-- [[risk-management/Risk-Reward]] — Risk/reward ratio
-- [[risk-management/Stop-Loss]] — Stop placement
-- [[risk-management/Drawdown]] — Manage losses
+- **[[tools/Indicators]]** — RSI, MACD, Moving Averages
+- **[[tools/Charting-Tools]]** — TradingView, MetaTrader
+- **[[tools/Platforms]]** — Brokers
+- **[[tools/pine-script/]]** — Pine Script Programming
 
-</div>
-
-<div>
-
-**Trading Psychology**
-
-- [[psychology/Trading-Mindset]] — Think like a pro
-- [[psychology/Emotional-Control]] — Manage emotions
-- [[psychology/Trading-Journal]] — Track progress
-- [[psychology/Trading-Discipline]] — Follow rules
-
-</div>
-
-</div>
-
----
-
-### Advanced Topics
+### Advanced
 
 - **[[advanced/Smart-Money-Concepts]]** — Institutional trading
 - **[[advanced/Order-Flow]]** — Read the DOM
 - **[[advanced/Liquidity-Zones]]** — Find liquidity
 - **[[advanced/Algorithmic-Trading]]** — Automation
-- **[[tools/pine-script/]]** — Pine Script Programming
 
----
+### Practice
 
-### Practice & Resources
+- **[[practice/Backtesting]]** — Test strategies
+- **[[practice/Demo-Trading]]** — Practice risk-free
+- **[[practice/Trade-Setups]]** — Master setups
+- **[[practice/Exercises]]** — Daily practice
 
-<div class="grid">
+### Resources
 
-<div>
-
-**Practice**
-
-- [[practice/Backtesting]] — Test strategies
-- [[practice/Demo-Trading]] — Practice risk-free
-- [[practice/Trade-Setups]] — Master setups
-- [[practice/Exercises]] — Daily practice
-
-</div>
-
-<div>
-
-**Resources**
-
-- [[resources/Pre-Trade-Checklist]] — Before trading
-- [[resources/Trade-Log-Template]] — Journal template
-- [[resources/Indicator-Cheat-Sheet]] — Quick reference
-- [[resources/Risk-Rules-Quick-Reference]] — Risk rules
-
-</div>
-
-</div>
-
----
+- **[[resources/Pre-Trade-Checklist]]** — Before trading
+- **[[resources/Trade-Log-Template]]** — Journal template
+- **[[resources/Indicator-Cheat-Sheet]]** — Quick reference
+- **[[resources/Risk-Rules-Quick-Reference]]** — Risk rules
 
 ### Case Studies
 
@@ -193,91 +138,58 @@ Your journey from **zero to profitable trader** starts here. Master trading conc
 
 ---
 
-## 💡 Quick Start Guide
+## Quick Start
 
 ### New to Trading?
 
-```python
-1. Read:    [[start-here/What-Is-Trading]]
-2. Follow:  [[start-here/Roadmap-Beginner]]
+```
+1. Read: [[start-here/What-Is-Trading]]
+2. Follow: [[start-here/Roadmap-Beginner]]
 3. Practice: [[practice/Demo-Trading]]
 ```
 
 ### Have Experience?
 
-```python
-1. Review:  [[foundations/index.md]]
-2. Choose:  [[strategies/index.md]]
-3. Focus:   [[risk-management/index.md]]
+```
+1. Review: [[foundations/index.md]]
+2. Choose: [[strategies/index.md]]
+3. Focus: [[risk-management/index.md]]
 ```
 
 ### Ready to Go Deep?
 
-```python
-1. Study:   [[advanced/index.md]]
+```
+1. Study: [[advanced/index.md]]
 2. Practice: [[practice/Backtesting]]
 3. Analyze: [[case-studies/index.md]]
 ```
 
 ---
 
-## 📊 Platform Stats
+## Essential Resources
 
-| Metric | Value |
-|--------|-------|
-| Total Articles | 125+ |
-| Learning Hours | 200+ |
-| Strategies Covered | 15+ |
-| Indicators Explained | 20+ |
-| Case Studies | 30+ |
+- **[[start-here/Roadmap-Beginner]]** — 12-week course
+- **[[start-here/Roadmap-Advanced]]** — Expert path
+- **[[start-here/Glossary]]** — Trading terms
+- **[[resources/index.md]]** — All templates
 
 ---
 
-## 🎯 Essential Resources
+## Latest on Site
 
-<div class="grid">
-
-<div>
-
-**Roadmaps**
-
-- [[start-here/Roadmap-Beginner]] — 12-week course
-- [[start-here/Roadmap-Advanced]] — Expert path
-
-</div>
-
-<div>
-
-**Quick Reference**
-
-- [[start-here/Glossary]] — Trading terms
-- [[resources/index.md]] — All templates
-
-</div>
-
-</div>
+- 125+ trading articles
+- Complete risk management system
+- Trading psychology framework
+- Real case studies
+- Practice templates & checklists
 
 ---
 
-## 🆘 Need Help?
+## Need Help?
 
 - Start with [[start-here/How-This-Site-Works]]
 - Browse [[start-here/Glossary]]
 - Review [[resources/index.md]]
-
----
-
-## 🆕 Latest Updates
-
-### New: Pine Script Programming Guide
-
-Complete programming course for TradingView:
-
-- **22 comprehensive articles**
-- **8,750+ lines of code examples**
-- From basics to advanced strategies
-
-Check out: **[[tools/pine-script/]]**
 
 ---
 
