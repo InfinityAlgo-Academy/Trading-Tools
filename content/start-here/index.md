@@ -3,204 +3,171 @@ title: "Start Here"
 tags:
   - getting-started
   - guide
+  - beginner
+  - trading
+  - learn-trading
+  - roadmap
+slug: start-here
 ---
 
 # Welcome to Trading Tools
 
-You've taken the first step. This site is designed to take you from complete beginner to profitable trader through a structured learning path.
-
-**How to use this site:**
-
-1. Follow the roadmap from start to finish
-2. Don't skip sections — each builds on the previous
-3. Practice as you learn — not just read
-4. Track your progress in your trading journal
-
-Let's begin your journey.
+Your complete trading education platform. Start here if you're new, or jump in based on your experience level.
 
 ---
 
-# Learning Roadmap
+## How to Use This Site
 
-This structured path takes you from fundamentals to consistent profitability:
+1. **Follow the roadmap** — Structured path from beginner to profitable
+2. **Don't skip sections** — Each module builds on the previous
+3. **Practice as you learn** — Not just read, apply
+4. **Track your progress** — Use the trading journal
 
-## Phase 1: Foundations (Weeks 1-3)
+---
+
+## Your Learning Roadmap
+
+### Phase 1: Foundations (Weeks 1-3)
 
 **Goal:** Understand how markets work
 
-- [[01-foundations/Market-Structure]] — Learn how price moves
-- [[01-foundations/Price-Action]] — Read the charts
-- [[01-foundations/Support-Resistance]] — Key price levels
-
-## Phase 2: Tools & Analysis (Weeks 4-8)
-
-**Goal:** Master technical analysis
-
-- [[03-tools/Charting-Platforms]] — Set up your workspace
-- [[04-analysis/Moving-Averages]] — Your first indicator
-- [[04-analysis/Oscillators]] — Find divergences
-
-## Phase 3: Strategies (Weeks 9-12)
-
-**Goal:** Build your trading system
-
-- [[05-strategies/Strategy-Basics]] — Define your edge
-- [[05-strategies/Entry-Rules]] — When to enter
-- [[05-strategies/Exit-Rules]] — When to exit
-
-## Phase 4: Risk & Psychology (Ongoing)
-
-**Goal:** Protect your capital
-
-- [[06-risk-management/Position-Sizing]] — Size correctly
-- [[06-risk-management/Risk-Reward]] — Your safety net
-- [[07-psychology/Trading-Mindset]] — Think like a pro
+- [[foundations/Market-Structure]] — Learn how price moves
+- [[foundations/Volatility]] — Understand price swings
+- [[foundations/Liquidity]] — Find order flow
 
 ---
 
-# How to Study Trading Properly
+### Phase 2: Markets & Tools (Weeks 4-6)
 
-## Avoid Random Learning
+**Goal:** Know your markets and set up tools
 
-Most traders fail because they learn randomly:
+- [[markets/Forex]] — Currency trading
+- [[tools/Indicators]] — Your first indicators
+- [[tools/Charting-Tools]] — Set up your workspace
 
-- Today's they read about RSI
-- Tomorrow they watch a video about Bollinger Bands
-- Next week they're on to the next shiny indicator
+---
 
-**Result:** No cohesive understanding
+### Phase 3: Analysis & Strategies (Weeks 7-10)
 
-## Focus on Systems
+**Goal:** Build your trading system
 
-Successful traders follow a structured approach:
+- [[analysis/Technical-Analysis]] — Read the charts
+- [[strategies/Trend-Following]] — Trade with trend
+- [[strategies/Strategy-Basics]] — Define your edge
 
-1. **One concept at a time** — Master each before moving on
+---
+
+### Phase 4: Risk & Psychology (Ongoing)
+
+**Goal:** Protect capital and stay disciplined
+
+- [[risk-management/Position-Sizing]] — Size correctly
+- [[risk-management/Risk-Reward]] — Your safety net
+- [[psychology/Trading-Mindset]] — Think like a pro
+
+---
+
+## Why Structured Learning Works
+
+### ❌ Random Learning (Most Traders Fail)
+
+- Today: Read about RSI
+- Tomorrow: Watch Bollinger Bands video
+- Next week: Next shiny indicator
+
+**Result:** No cohesive understanding, inconsistent trading
+
+### ✅ Structured Approach (Successful Traders)
+
+1. **One concept at a time** — Master before moving on
 2. **Practice immediately** — Apply what you learn
 3. **Keep a journal** — Track your progress
 4. **Build incrementally** — Layer knowledge
 
-This site is structured exactly for that.
+This site is built exactly for that approach.
 
 ---
 
-# Key Sections Overview
+## Quick Navigation
 
-## [[01-foundations/]]
+| Section | What You'll Learn | Start Here |
+|---------|------------------|------------|
+| [[foundations/]] | Market structure, price action | Start |
+| [[markets/]] | Forex, crypto, stocks | Explore |
+| [[tools/]] | Indicators, platforms, automation | Set up |
+| [[analysis/]] | Technical, fundamental analysis | Analyze |
+| [[strategies/]] | Build your trading system | Apply |
+| [[risk-management/]] | Position sizing, stops | Protect |
+| [[psychology/]] | Mindset, discipline, journaling | Master |
+| [[practice/]] | Backtesting, demo trading | Practice |
+| [[case-studies/]] | Real trading examples | Learn |
 
-**What you'll learn:**
-- How markets are structured
-- Price action basics
-- Reading candlesticks
+---
+
+## Core Concepts to Master
+
+### 1. Market Structure
+- Trends vs ranges
 - Support and resistance
+- Price action basics
 
-**Why it matters:** Without foundations, everything else collapses
-
-**Start with:**
-- [[01-foundations/Basic-Concepts]]
-- [[01-foundations/Candlestick-Charts]]
-
----
-
-## [[03-tools/]]
-
-**What you'll learn:**
-- Best charting platforms
-- Data sources
-- Trade execution
-- Automation basics
-
-**Why it matters:** Your tools determine your effectiveness
-
-**Start with:**
-- [[03-tools/TradingView]]
-- [[03-tools/Setup-Guide]]
-
----
-
-## [[04-analysis/]]
-
-**What you'll learn:**
+### 2. Technical Analysis
 - Moving averages
-- Oscillators
-- Price patterns
-- Indicator implementation (Python, Pine Script, MQL)
+- RSI and oscillators
+- Chart patterns
 
-**Why it matters:** Analysis finds high-probability setups
-
-**Start with:**
-- [[04-analysis/Moving-Averages]]
-- [[04-analysis/Trend-Identification]]
-
----
-
-## [[05-strategies/]]
-
-**What you'll learn:**
-- Strategy development process
-- Entry and exit rules
-- Timeframe analysis
-- Backtesting
-
-**Why it matters:** You need a system to trade consistently
-
-**Start with:**
-- [[05-strategies/Strategy-Development]]
-- [[05-strategies/Trading-Plan]]
-
----
-
-## [[06-risk-management/]]
-
-**What you'll learn:**
-- Position sizing formulas
-- Risk-reward ratios
+### 3. Risk Management
+- Position sizing formula
+- Risk-reward ratio
 - Stop loss placement
-- Drawdown control
 
-**Why it matters:** Risk management = trading survival
-
-**Start with:**
-- [[06-risk-management/Position-Sizing]]
-- [[06-risk-management/Risk-Rules]]
-
----
-
-## [[07-psychology/]]
-
-**What you'll learn:**
+### 4. Psychology
 - Emotional control
-- Discipline habits
-- Trading routines
+- Trading discipline
 - Journaling
 
-**Why it matters:** Psychology determines execution
+---
 
-**Start with:**
-- [[07-psychology/Emotional-Control]]
-- [[07-psychology/Trading-Journal]]
+## Start Your Journey
+
+**New to Trading?**
+
+```
+1. Read: [[start-here/What-Is-Trading]]
+2. Read: [[start-here/How-This-Site-Works]]
+3. Follow: [[start-here/Roadmap-Beginner]]
+```
+
+**Ready to go deeper?**
+
+```
+1. Review: [[foundations/index.md]]
+2. Choose: [[strategies/index.md]]
+3. Focus: [[risk-management/index.md]]
+```
 
 ---
 
-# Internal Linking
+## Internal Links
 
-Use these to navigate:
+Navigate using these wiki-links:
 
-- [[roadmap-beginner]] — Start here
-- [[01-foundations]] — Build your foundation
-- [[03-tools]] — Set up your tools
-- [[04-analysis]] — Learn analysis
-- [[05-strategies]] — Build strategies
-- [[06-risk-management]] — Protect capital
-- [[07-psychology]] — Master mindset
-
----
-
-# Your Next Step
-
-Start with Phase 1: Foundations
-
->>> [[01-foundations/Market-Structure]] >>>
+- [[start-here]] — Getting started
+- [[foundations]] — Core concepts
+- [[tools]] — Trading setup
+- [[analysis]] — Chart analysis
+- [[strategies]] — Trading systems
+- [[risk-management]] — Capital protection
+- [[psychology]] — Mindset
 
 ---
 
-*Begin your journey. The path to profitability starts here.*
+## Your Next Step
+
+Begin with Phase 1: Foundations
+
+>>> [[foundations/Market-Structure]] >>>
+
+---
+
+*Your trading journey starts here.*

@@ -1,11 +1,15 @@
 ---
-title: "Glossary"
+title: "Trading Glossary - Terms & Definitions"
 tags:
   - reference
   - glossary
+  - terms
+  - definitions
+description: "Complete glossary of trading terms used throughout this site."
+slug: glossary
 ---
 
-# Glossary
+# Trading Glossary
 
 Quick reference for trading terms used throughout this site.
 
@@ -41,8 +45,6 @@ Quick reference for trading terms used throughout this site.
 
 **Consolidation** — Price moving within a bounded range.
 
-**Counter-Trend** — Trading against the prevailing trend.
-
 ---
 
 ## D
@@ -71,23 +73,9 @@ Quick reference for trading terms used throughout this site.
 
 ---
 
-## G
-
-**Gap** — A price difference between consecutive candlesticks where no trading occurred.
-
----
-
-## H
-
-**High-Timeframe (HTF)** — Longer timeframes like daily, weekly, monthly charts.
-
----
-
 ## I
 
 **Indicator** — A mathematical calculation plotted on charts to aid analysis.
-
-**Island Reversal** — A candlestick pattern signaling potential trend reversal.
 
 ---
 
@@ -153,7 +141,7 @@ Quick reference for trading terms used throughout this site.
 
 **Reward-to-Risk Ratio** — The potential profit compared to potential loss on a trade.
 
-**Risk Management** — The practice of protecting capital through position sizing and止损 rules.
+**Risk Management** — The practice of protecting capital through position sizing and stop loss rules.
 
 **RSI (Relative Strength Index)** — A momentum oscillator measuring speed and change of price movements.
 
@@ -197,19 +185,9 @@ Quick reference for trading terms used throughout this site.
 
 ## W
 
-**Walker** — A candlestick pattern signaling potential reversal.
-
 **Win Rate** — The percentage of profitable trades.
 
 ---
-
-## Z
-
-**Zone** — An area of support or resistance rather than a specific price level.
-
----
-
-# Quick Reference Tables
 
 ## Common Timeframes
 
@@ -223,16 +201,6 @@ Quick reference for trading terms used throughout this site.
 | D1 | 1 day |
 | W1 | 1 week |
 | MN | 1 month |
-
-## Common Indicators
-
-| Indicator | Type | Purpose |
-|-----------|------|---------|
-| SMA/EMA | Moving Average | Trend direction |
-| RSI | Oscillator | Momentum/overbought-oversold |
-| MACD | Oscillator | Trend/momentum |
-| Bollinger Bands | Volatility | Support/resistance |
-| ATR | Volatility | Measure volatility |
 
 ---
 

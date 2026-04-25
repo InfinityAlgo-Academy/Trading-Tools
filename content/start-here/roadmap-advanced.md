@@ -3,6 +3,9 @@ title: "Advanced Roadmap"
 tags:
   - roadmap
   - advanced
+  - expert
+description: "Advanced trading roadmap for experienced traders looking to level up."
+slug: roadmap-advanced
 ---
 
 # Advanced Roadmap
@@ -15,7 +18,7 @@ For traders who have completed the beginner path and are ready to level up. This
 
 Before starting this roadmap:
 
-- [ ] Completed [[00-start-here/roadmap-beginner|Beginner Roadmap]]
+- [ ] Completed [[start-here/Roadmap-Beginner]]
 - [ ] Have a working trading strategy
 - [ ] Have backtested your system
 - [ ] Keep a trading journal
@@ -39,21 +42,17 @@ Before starting this roadmap:
 
 ### Week 1: Edge Optimization
 
-- [[08-advanced/Edge-Definition]] — Define your statistical edge
-- [[08-advanced/Win-Rate-Analysis]] — Calculate realistic win rates
-- [[08-advanced/Profit-Factor]] — Measure your edge strength
+- [[advanced/Smart-Money-Concepts]] — Define your edge
+- [[tools/Indicators]] — Optimize indicators
 
 ### Week 2: Parameter Tuning
 
-- [[08-advanced/Parameter-Optimization]] — Find optimal settings
-- [[08-advanced/Overfitting-Avoidance]] — Don't curve fit
-- [[08-advanced/Sensitivity-Analysis]] — Test robustness
+- [[practice/Backtesting]] — Test parameters
+- [[tools/Automation]] — Prepare for automation
 
 ### Week 3: Market Conditions
 
-- [[08-advanced/Market-Regimes]] — Adapt to different markets
-- [[08-advanced/Trend-Vs-Range]] — Trade different conditions
-- [[08-advanced/Volatility-Adaptation]] — Adjust to volatility
+- [[analysis/Technical-Analysis]] — Adapt conditions
 
 **Phase 1 Checklist:**
 - [ ] Have defined your statistical edge
@@ -68,21 +67,16 @@ Before starting this roadmap:
 
 ### Week 4: Timeframe Hierarchy
 
-- [[08-advanced/Monthly-Timeframe]] — Monthly for direction
-- [[08-advanced/Weekly-Timeframe]] — Weekly for structure
-- [[08-advanced/Daily-Timeframe]] — Daily for timing
+- [[analysis/Multi-Timeframe]] — Analyze multiple timeframes
 
-### Week 5:Confluence
+### Week 5: Confluence
 
-- [[08-advanced/Support-Resistance-Zones]] — Combine levels
-- [[08-advanced/Indicator-Confluence]] — Multiple indicators
-- [[08-advanced/Multi-Timeframe-Entry]] — Time your entry
+- [[foundations/Market-Structure]] — Combine levels
+- [[tools/RSI]] — Multiple indicators
 
 ### Week 6: Higher Probability Setups
 
-- [[08-advanced/Low-Timeframe-Exits]] — Better exit timing
-- [[08-advanced/Partial-Exits]] — Scale out of positions
-- [[08-advanced/Trade-Management]] — Active management
+- [[strategies/Trend-Following]] — Better entries
 
 **Phase 2 Checklist:**
 - [ ] Can analyze multiple timeframes
@@ -97,21 +91,16 @@ Before starting this roadmap:
 
 ### Week 7: Algo Trading Basics
 
-- [[08-advanced/Algorithmic-Trading]] — What is algo trading
-- [[08-advanced/Trading-API]] — Connect to brokers
-- [[08-advanced/Automated-Execution]] — Execute automatically
+- [[advanced/Algorithmic-Trading]] — Automate execution
 
 ### Week 8: Building Indicators
 
-- [[04-analysis/Python-Implementation]] — Python for analysis
-- [[04-analysis/Pine-Script]] — TradingView automation
-- [[04-analysis/MQL]] — MetaTrader automation
+- [[tools/Automation]] — Code your indicators
+- [[practice/Backtesting]] — Test automatically
 
-### Week 9: Backtesting Automation
+### Week 9: Advanced Indicators
 
-- [[08-advanced/Automated-Backtesting]] — Test automatically
-- [[08-advanced/Monte-Carlo]] — Simulate scenarios
-- [[08-advanced/Walk-Forward]] — Validate your system
+- [[advanced/Order-Flow]] — Read market flow
 
 **Phase 3 Checklist:**
 - [ ] Can connect to a trading API
@@ -126,21 +115,15 @@ Before starting this roadmap:
 
 ### Week 10: Emotional Mastery
 
-- [[07-psychology/Emotional-Awareness]] — Know your triggers
-- [[07-psychology/Emotional-Regulation]] — Control responses
-- [[07-psychology/Pre-Trade-Routine]] — Prepare mentally
+- [[psychology/Emotional-Control]] — Know your triggers
 
 ### Week 11: Performance Psychology
 
-- [[07-psychology/Flow-State]] — Enter the zone
-- [[07-psychology/Confidence-Building]] — Build unwavering confidence
-- [[07-psychology/Resilience]] — Bounce back from losses
+- [[psychology/Confidence]] — Build unwavering confidence
 
 ### Week 12: Long-Term Success
 
-- [[07-psychology/Evolving-Trader]] — Keep improving
-- [[07-psychology/Learning-Archive]] — Document lessons
-- [[07-psychology/Mentor-Mindset]] — Teach others
+- [[psychology/Trading-Journal]] — Track and improve
 
 **Phase 4 Checklist:**
 - [ ] Can regulate emotions in real-time
@@ -155,7 +138,7 @@ This roadmap takes your trading to the next level. Complete each phase before mo
 
 **Start with Phase 1:**
 
->>> [Phase 1: Edge Definition](../08-advanced/Edge-Definition.md) >>>
+>>> [[advanced/Smart-Money-Concepts]] >>>
 
 ---
 

@@ -1,8 +1,18 @@
 ---
-title: "What Is Trading"
+title: "Trading for Beginners - Complete Guide"
 tags:
+  - trading
   - getting-started
-  - foundations
+  - beginner
+  - learn-trading
+  - forex
+  - crypto
+  - stocks
+  - technical-analysis
+  - risk-management
+  - trading-psychology
+description: "Learn to trade from beginner to profitable. Complete trading education platform with strategies, risk management, and psychology."
+slug: start-trading
 ---
 
 # What Is Trading
@@ -19,7 +29,7 @@ At its simplest, trading means:
 2. **Sell high** — Sell that asset at a higher price
 3. **Profit** — Keep the difference
 
-The challenge? Knowing when to buy and when to sell.
+The challenge? Knowing when to buy and when to sell — that's what this platform teaches you.
 
 ---
 
@@ -32,7 +42,7 @@ Markets move because of:
 - **Emotion** — Fear and greed drive price swings
 - **Trends** — Prices tend to continue in their direction
 
-Traders exploit these patterns.
+Traders exploit these patterns systematically.
 
 ---
 
@@ -69,10 +79,32 @@ If you're willing to put in the work, trading can be a valuable skill.
 
 ---
 
-# Next Step
+## Quick Start
+
+### For Beginners
+
+```
+1. Read: [[start-here/How-This-Site-Works]]
+2. Follow: [[start-here/Roadmap-Beginner]]
+3. Explore: [[foundations/Market-Structure]]
+```
+
+### For Experienced Traders
+
+```
+1. Review: [[strategies/index.md]]
+2. Deepen: [[analysis/index.md]]
+3. Master: [[risk-management/index.md]]
+```
+
+---
+
+# Your Next Step
 
 Now that you understand what trading is:
 
->>> [how-this-site-works.md](../01-foundations/how-this-site-works.md) >>>
+>>> [[start-here/How-This-Site-Works]] >>>
+
+---
 
 *Trading is a journey. Start here.*

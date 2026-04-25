@@ -3,6 +3,10 @@ title: "How This Site Works"
 tags:
   - getting-started
   - guide
+  - how-to
+  - tutorial
+description: "Learn how to navigate and use the Trading Tools knowledge base effectively."
+slug: how-it-works
 ---
 
 # How This Site Works
@@ -13,22 +17,21 @@ This isn't just a collection of articles. It's a structured learning path design
 
 ## The Structure
 
-This site is organized in phases:
+This site is organized in sequential phases:
 
 ```
-00-start-here/   → Your starting point
-01-foundations/  → Core concepts
-02-markets/      → Understanding markets
-03-tools/       → Setting up your workspace
-04-analysis/    → Technical analysis
-05-strategies/  → Building your system
-06-risk-management/ → Protecting your capital
-07-psychology/  → Mastering your mindset
-08-advanced/   → Elite techniques
-09-practice/   → Apply what you learn
-10-resources/  → Tools and references
-11-courses/     → Premium programs
-12-case-studies/ → Real examples
+start-here/   → Your starting point
+foundations/  → Core concepts
+markets/      → Understanding markets
+tools/       → Set up your workspace
+analysis/    → Technical analysis
+strategies/  → Build your system
+risk-management/ → Protect your capital
+psychology/  → Master your mindset
+advanced/   → Elite techniques
+practice/   → Apply what you learn
+resources/  → Tools and references
+case-studies/ → Real examples
 ```
 
 Each folder builds on the previous.
@@ -42,17 +45,18 @@ Each folder builds on the previous.
 Start here and progress in order:
 
 ```
-roadmap-beginner → roadmap-advanced
+start-here/roadmap-beginner → advanced path
 ```
 
 ### 2. Use Internal Links
 
 Throughout the site, you'll see links like:
 
-- [[roadmap-beginner]]
-- [[foundations]]
-- [[strategies]]
-- [[risk-management]]
+- [[start-here]] — Start here
+- [[foundations]] — Core concepts
+- [[tools]] — Trading setup
+- [[strategies]] — Strategy building
+- [[risk-management]] — Capital protection
 
 These connect related content.
 
@@ -60,7 +64,7 @@ These connect related content.
 
 For quick reference:
 
->>> [glossary.md](../00-start-here/glossary.md) >>>
+>>> [[start-here/Glossary]] >>>
 
 ---
 
@@ -70,7 +74,7 @@ For quick reference:
 
 1. **Read** the material
 2. **Practice** on a demo account
-3. ** journal** your trades
+3. **Journal** your trades
 4. **Review** your performance
 
 ### One Thing at a Time
@@ -93,7 +97,7 @@ Every trader needs a journal. Track:
 
 | Section | What You Get |
 |---------|--------------|
-| Foundations | Core concepts |
+| Foundations | Core trading concepts |
 | Markets | Market types & behaviors |
 | Tools | Platforms & software |
 | Analysis | Indicators & patterns |
@@ -109,20 +113,20 @@ Every trader needs a journal. Track:
 ## Your Path
 
 **Beginner:**
-1. Read [[00-start-here/what-is-trading]]
-2. Learn [[01-foundations]]
-3. Master [[06-risk-management]]
-4. Build [[05-strategies]]
+1. Read [[start-here/What-Is-Trading]]
+2. Learn [[foundations/index.md]]
+3. Master [[risk-management/index.md]]
+4. Build [[strategies/index.md]]
 
 **Intermediate:**
-1. Deepen [[04-analysis]]
-2. Refine [[05-strategies]]
-3. Practice [[09-practice]]
+1. Deepen [[analysis/index.md]]
+2. Refine [[strategies/index.md]]
+3. Practice [[practice/index.md]]
 
 **Advanced:**
-1. Explore [[08-advanced]]
-2. Study [[12-case-studies]]
-3. Take [[11-courses]]
+1. Explore [[advanced/index.md]]
+2. Study [[case-studies/index.md]]
+3. Take [[courses/index.md]]
 
 ---
 
@@ -130,6 +134,6 @@ Every trader needs a journal. Track:
 
 Start with the beginner roadmap:
 
->>> [roadmap-beginner.md](../00-start-here/roadmap-beginner.md) >>>
+>>> [[start-here/Roadmap-Beginner]] >>>
 
 *Follow the path. Trust the process.*
