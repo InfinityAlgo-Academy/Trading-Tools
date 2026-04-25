@@ -37,3 +37,11 @@ blockquote {
   margin: 0.75rem 0;
   padding: 0.5rem 1rem;
 }
+
+::selection {
+  background: rgba(255, 255, 0, 0.5);
+}
+
+::-moz-selection {
+  background: rgba(255, 255, 0, 0.5);
+}
