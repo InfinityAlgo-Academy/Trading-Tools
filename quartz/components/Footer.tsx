@@ -16,7 +16,7 @@ export default ((opts?: Options) => {
         </p>
         <ul>
           <li><a href="https://github.com/InfinityAlgo-Academy">GitHub</a></li>
-          <li><a href="https://t.me/infinityalgo">Telegram</a></li>
+          <li><a href="https://t.me/InfinityAlgo_Group_Topics">Telegram</a></li>
         </ul>
       </footer>
     )
