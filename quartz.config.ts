@@ -3,8 +3,6 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
  */
 const config: QuartzConfig = {
   configuration: {
@@ -23,32 +21,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans 3",
-        code: "IBM Plex Mono",
+        header: "Inter",
+        body: "Inter",
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#d974b6",
-          tertiary: "#f6c177",
-          highlight: "rgba(217, 116, 182, 0.2)",
-          textHighlight: "#fed7e2",
+          light: "#ffffff",
+          lightgray: "#f3f4f6",
+          gray: "#9ca3af",
+          darkgray: "#4b5563",
+          dark: "#1f2937",
+          secondary: "#2563eb",
+          tertiary: "#059669",
+          highlight: "rgba(37, 99, 235, 0.1)",
+          textHighlight: "#dbeafe",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#d974b6",
-          tertiary: "#f6c177",
-          highlight: "rgba(217, 116, 182, 0.2)",
-          textHighlight: "#881337",
+          light: "#111827",
+          lightgray: "#1f2937",
+          gray: "#6b7280",
+          darkgray: "#d1d5db",
+          dark: "#f3f4f6",
+          secondary: "#3b82f6",
+          tertiary: "#10b981",
+          highlight: "rgba(59, 130, 246, 0.15)",
+          textHighlight: "#1e3a8a",
         },
       },
     },
