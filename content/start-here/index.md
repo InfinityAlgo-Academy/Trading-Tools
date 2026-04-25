@@ -31,9 +31,9 @@ Your complete trading education platform. Start here if you're new, or jump in b
 
 **Goal:** Understand how markets work
 
-- [[foundations/Market-Structure]] — Learn how price moves
-- [[foundations/Volatility]] — Understand price swings
-- [[foundations/Liquidity]] — Find order flow
+- [[foundations/market-structure]] — Learn how price moves
+- [[foundations/volatility]] — Understand price swings
+- [[foundations/liquidity]] — Find order flow
 
 ---
 
@@ -41,9 +41,9 @@ Your complete trading education platform. Start here if you're new, or jump in b
 
 **Goal:** Know your markets and set up tools
 
-- [[markets/Forex]] — Currency trading
-- [[tools/Indicators]] — Your first indicators
-- [[tools/Charting-Tools]] — Set up your workspace
+- [[markets/forex]] — Currency trading
+- [[tools/indicators]] — Your first indicators
+- [[tools/charting-tools]] — Set up your workspace
 
 ---
 
@@ -51,9 +51,9 @@ Your complete trading education platform. Start here if you're new, or jump in b
 
 **Goal:** Build your trading system
 
-- [[analysis/Technical-Analysis]] — Read the charts
-- [[strategies/Trend-Following]] — Trade with trend
-- [[strategies/Strategy-Basics]] — Define your edge
+- [[analysis/technical-analysis]] — Read the charts
+- [[strategies/trend-following-strategy]] — Trade with trend
+- [[strategies/entry-strategies]] — Define your edge
 
 ---
 
@@ -61,9 +61,9 @@ Your complete trading education platform. Start here if you're new, or jump in b
 
 **Goal:** Protect capital and stay disciplined
 
-- [[risk-management/Position-Sizing]] — Size correctly
-- [[risk-management/Risk-Reward]] — Your safety net
-- [[psychology/Trading-Mindset]] — Think like a pro
+- [[risk-management/position-sizing]] — Size correctly
+- [[risk-management/risk-reward-ratio]] — Your safety net
+- [[psychology/trading-mindset]] — Think like a pro
 
 ---
 
@@ -133,9 +133,9 @@ This site is built exactly for that approach.
 **New to Trading?**
 
 ```
-1. Read: [[start-here/What-Is-Trading]]
-2. Read: [[start-here/How-This-Site-Works]]
-3. Follow: [[start-here/Roadmap-Beginner]]
+1. Read: [[start-here/what-is-trading]]
+2. Read: [[start-here/how-this-site-works]]
+3. Follow: [[start-here/roadmap-beginner]]
 ```
 
 **Ready to go deeper?**
@@ -166,7 +166,7 @@ Navigate using these wiki-links:
 
 Begin with Phase 1: Foundations
 
->>> [[foundations/Market-Structure]] >>>
+>>> [[foundations/market-structure]] >>>
 
 ---
 
