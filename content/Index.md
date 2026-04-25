@@ -90,7 +90,7 @@ Week 10-12: [[risk-management/position-sizing]] → [[psychology/trading-mindset
 ### Risk Management
 
 - **[[risk-management/position-sizing]]** — Calculate position size
-- **[[risk-management/risk-reward]]** — Risk/reward ratio
+- **[[risk-management/risk-reward-ratio]]** — Risk/reward ratio
 - **[[risk-management/stop-loss]]** — Stop placement
 - **[[risk-management/drawdown]]** — Manage losses
 
