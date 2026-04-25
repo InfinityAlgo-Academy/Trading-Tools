@@ -24,7 +24,7 @@ Your complete trading education platform. From zero to profitable trader.
 
 **New to trading?**
 
->>> [[start-here/What-Is-Trading]] >>>
+>>> [[start-here/what-is-trading]] >>>
 
 ---
 
