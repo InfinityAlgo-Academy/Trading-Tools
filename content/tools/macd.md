@@ -1,52 +1,75 @@
 ---
-title: "MACD - Moving Average Convergence Divergence"
+title: "MACD Indicator: Complete Guide"
 tags:
   - tools
-  - indicators
   - macd
+  - indicator
   - momentum
   - trend
+  - technical-analysis
+description: "Master MACD - Moving Average Convergence Divergence. Learn trend direction, crossovers, and momentum trading."
+slug: macd
 ---
 
-# MACD (Moving Average Convergence Divergence)
+# MACD Indicator: Complete Guide
 
-MACD is a trend-following momentum indicator showing the relationship between two moving averages.
-
-**Created by:** Gerald Appel
+MACD (Moving Average Convergence Divergence) is one of the most popular trend-following momentum indicators. Created by Gerald Appel, it's used to identify trend direction, momentum, and potential reversals.
 
 ---
 
-## How MACD Works
+## What is MACD?
 
-### Components
-
-| Line | Description |
-|------|------------|
-| MACD Line | 12 EMA - 26 EMA |
-| Signal Line | 9 EMA of MACD |
-| Histogram | MACD - Signal |
+MACD shows the relationship between two moving averages. It consists of three components:
 
 ```
-MACD
-━━━━━━━━━━━━━━━━━
-  Signal ══════
-  MACD   ══════════
- Histogram ████   ████
-          buy    sell
+MACD Components:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MACD Line = 12 EMA - 26 EMA
+Signal Line = 9 EMA of MACD Line
+Histogram = MACD Line - Signal Line
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ---
 
-## Settings
+## MACD Formula
 
-| Setting | Default | Common |
-|---------|--------|--------|
-| Fast EMA | 12 | 12 |
-| Slow EMA | 26 | 26 |
-| Signal | 9 | 9 |
+### Default Settings
 
-**Lower values:** More sensitive, more signals
-**Higher values:** Less sensitive, clearer signals
+| Parameter | Value | Meaning |
+|-----------|-------|---------|
+| Fast EMA | 12 | Short-term average |
+| Slow EMA | 26 | Long-term average |
+| Signal | 9 | Signal line average |
+
+### Calculation
+
+```
+MACD Line = 12 EMA - 26 EMA
+Signal Line = 9-period EMA of MACD
+Histogram = MACD Line - Signal Line
+```
+
+---
+
+## MACD Visual
+
+```
+MACD Histogram
+███████████████████       ███████████████████
+              ╱╲            ╱╲
+             ╱  ╲          ╱  ╲
+            ╱    ╲        ╱    ╲
+           ╱      ╲      ╱      ╲
+          ╱        ╲    ╱        ╲
+         ╱          ╲  ╱          ╲
+─────────────────────╱─────────────────────
+                         
+MACD Line ═════════════════════════════
+Signal   ═════════════════════════════
+                ↑                          
+             Crossover = Signal
+```
 
 ---
 
@@ -54,120 +77,93 @@ MACD
 
 ### 1. Crossover
 
-**Bullish crossover:** MACD crosses above signal → Buy
+**Bullish Crossover:**
+- MACD crosses above signal line = BUY
 
-**Bearish crossover:** MACD crosses below signal → Sell
+**Bearish Crossover:**
+- MACD crosses below signal line = SELL
 
 ```
-        Buy
+        BUY
          ↗ ↗
         ↗   ↗
        ↗     ↗
-MACD ──────────── Signal
+      ↗       ↗
+MACD ──────────────────  Signal
+       ↘       ↘
         ↘     ↘
          ↘   ↘
           ↘ ↘
-           Sell
+           SELL
 ```
 
 ---
 
 ### 2. Zero Line Crossover
 
-**Above zero:** Positive momentum (12 EMA > 26 EMA)
-**Below zero:** Negative momentum (12 EMA < 26 EMA)
+**Above zero:** Price in uptrend (12 EMA > 26 EMA)
+**Below zero:** Price in downtrend (12 EMA < 26 EMA)
 
 ---
 
 ### 3. Divergence
 
-**Bullish divergence:** Price makes lower low, MACD makes higher low → Potential reversal
+**Bullish Divergence:**
+- Price makes lower low
+- MACD makes higher low
+- Potential reversal UP
 
-**Bearish divergence:** Price makes higher high, MACD makes lower high → Potential reversal
+**Bearish Divergence:**
+- Price makes higher high
+- MACD makes lower high
+- Potential reversal DOWN
 
 ---
 
 ### 4. Histogram
 
-**Expanding histogram:** Momentum increasing
-**Contracting histogram:** Momentum weakening
+**Growing histogram =** Momentum increasing
+**Shrinking histogram =** Momentum decreasing
 
 ---
 
-## When to Use MACD
-
-### Use when:
-- Market is trending
-- Need entry confirmation
-- Looking for momentum shifts
-
-### Don't use when:
-- Market is ranging (false crossovers)
-- Short timeframes (whipsaws)
-- Primary indicator only
-
----
-
-## MACD Trading Strategies
+## MACD Strategies
 
 ### Strategy 1: Trend Following
 
-1. Identify uptrend on price
-2. MACD crosses above zero
-3. Entry: On signal line cross
-4. Stop: Below recent swing low
-5. Exit: MACD cross below signal
+```
+Entry Conditions:
+- Price in uptrend (above 50 SMA)
+- MACD crosses above signal
+- Price at support
 
----
+Stop: Below recent low
+Target: New high
+```
 
-### Strategy 2: Divergence Reversal
+### Strategy 2: Signal Line Fade
 
-1. Find divergence
-2. Price breaks trendline
-3. MACD confirms
-4. Entry: On confirmation
-5. Stop: Beyond pivot
+```
+Entry Conditions:
+- Overextended move
+- MACD at extreme
+- Rejection candle
 
----
+Stop: Beyond rejection
+Target: Mean reversion
+```
 
-### Strategy 3: Histogram Divergence
+### Strategy 3: Divergence Reversal
 
-1. Histogram contracting
-2. Price near support
-3. Entry: Price bounces
-4. Stop: Below support
+```
+Entry Conditions:
+- Divergence forms
+- Price breaks trendline
+- MACD confirms
 
----
-
-## Common Mistakes
-
-### 1. Trading Every Crossover
-
-**Mistake:** Enter on every MACD cross.
-
-**Result:** Trading range noise.
-
-**Fix:** Only trade in trend direction.
-
----
-
-### 2. Ignoring Lag
-
-**Mistake:** Using MACD for timing entries.
-
-**Result:** Late entries in strong trends.
-
-**Fix:** Use as confirmation, not timing.
-
----
-
-### 3. No Zero Line Filter
-
-**Mistake:** Buying when MACD crosses up but below zero.
-
-**Result:** Weak momentum.
-
-**Fix:** Wait for zero line break first.
+Stop: Beyond divergence point
+Target: Previous structure
+```
 
 ---
 
@@ -182,22 +178,79 @@ MACD ──────────── Signal
 
 ---
 
-# Key Takeaways
+## MACD Timeframes
 
-1. **Trend momentum** — Shows relationship between EMAs
-2. **Crossover signals** — Buy/sell signals
-3. **Divergences** — Find reversals
-4. **Use in trends** — Avoid in ranges
-5. **Confirmation tool** — Don't use alone
+| Timeframe | Best For |
+|-----------|----------|
+| Daily | Swing trades |
+| 4-Hour | Multi-day |
+| 1-Hour | Intraday |
 
 ---
 
-# Related
+## MACD vs RSI
 
->>> [rsi.md](./rsi.md) >>>
+| Indicator | Best For |
+|-----------|----------|
+| MACD | Trend following |
+| RSI | Mean reversion |
 
->>> [indicators.md](./indicators.md) >>>
+**Combined:** Use MACD for direction, RSI for entry timing.
 
->>> [strategies/trend-following.md](../05-strategies/trend-following.md) >>>
+---
+
+## Common MACD Mistakes
+
+### 1. Trading Every Crossover
+
+**Problem:** Too many signals in ranging markets.
+
+**Result:** Small losses add up.
+
+**Solution:** Only trade with trend.
+
+---
+
+### 2. Ignoring Lag
+
+**Problem:** Using MACD for precise timing.
+
+**Result:** Late entries.
+
+**Solution:** Use as confirmation, not timing.
+
+---
+
+### 3. No Zero Line Filter
+
+**Problem:** Entering when MACD below zero in uptrend.
+
+**Result:** Against momentum.
+
+**Solution:** Only enter above zero for longs.
+
+---
+
+## MACD Checklist
+
+```
+☐ Trend identified?
+☐ Price above/below 50 EMA?
+☐ MACD crossed signal?
+☐ Above/below zero line?
+☐ Histogram confirming?
+☐ Stop placed?
+```
+
+---
+
+## Related Topics
+
+- [[tools/Indicators]] — Other indicators
+- [[tools/RSI]] — Confirm with RSI
+- [[foundations/Volatility]] — Context
+- [[strategies/MACD-Strategy]] — Trading setup
+
+---
 
 *MACD confirms momentum. Price enters.*

@@ -1,216 +1,316 @@
 ---
-title: "Crypto Markets"
+title: "Crypto Trading: Complete Guide"
 tags:
   - markets
   - crypto
-  - cryptocurrency
   - bitcoin
+  - ethereum
+  - cryptocurrency
+  - trading
+description: "Complete cryptocurrency trading guide - understanding crypto markets, trading strategies, volatility management, and risk."
+slug: crypto
 ---
 
-# Crypto Markets
+# Cryptocurrency Trading: Complete Guide
 
-The cryptocurrency market is the wild west of trading. With extreme volatility, 24/7 trading, and massive profit potential — it's not for the faint of heart.
+The cryptocurrency market is the wildest, most volatile market in trading. With 24/7 trading, extreme moves, and massive profit potential — it's not for the faint of heart.
 
 ---
 
-## What Is Crypto?
+## What is Cryptocurrency?
 
 Cryptocurrencies are decentralized digital assets built on blockchain technology. Thousands exist, ranging from Bitcoin to obscure altcoins.
 
-**Key features:**
-- No central exchange
-- 24/7/365 trading
-- Extreme volatility
-- High leverage available
+### Top Cryptocurrencies
+
+| Tier | Coins | Market Cap |
+|------|------|------------|
+| Tier 1 | BTC, ETH | $1T+ |
+| Tier 2 | BNB, SOL, XRP, ADA | $10B-100B |
+| Tier 3 | Thousands | Below $10B |
 
 ---
 
-## Market Characteristics
+## Crypto Market Characteristics
 
-### Size and Volume
+### Market Features
 
 | Feature | Value |
 |---------|-------|
 | Daily Volume | $100-200 billion |
-| Assets | 20,000+ coins |
-| Top Assets | Bitcoin, Ethereum |
-| Commission | Variable (0.1-0.5%) |
+| Trading Hours | 24/7/365 |
+| Volatility | Very High |
+| Leverage | 10-100x |
+| Regulation | Varies by country |
 
-### Trading Hours
+### Why Trade Crypto?
 
-**Always open.** Markets never close:
+**Advantages:**
+- 24/7 trading
+- High volatility = High profit potential
+- Low barriers to entry
+- Huge momentum moves
 
-```
-Hour of Week
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Mon 00:00 ─────────────────── Sun 24:00
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-No close. No weekend. No holiday.
-```
-
-### Leverage
-
-- **Cex:** 10:1 to 125:1
-- **Dex:** 1-100x (varies wildly)
-- **Risk:** Extreme leverage + volatility = blow-ups
+**Disadvantages:**
+- Extreme volatility = High risk
+- No investor protection
+- Regulatory uncertainty
+- Many scams
 
 ---
 
-## Volatility Profile
+## Major Crypto Assets
 
-### Price Swings
+### Bitcoin (BTC)
 
-| Asset | Daily Range % | Monthly Range % |
-|-------|----------------|-----------------|
-| Bitcoin | 3-8% | 20-50% |
-| Ethereum | 5-12% | 30-80% |
-| Altcoins | 10-30% | 50-100%+ |
+**The flagship cryptocurrency.**
 
-### Volatility Characteristics
+| Feature | Value |
+|---------|-------|
+| Symbol | BTC |
+| Daily Range | 3-8% |
+| Correlation | Market sentiment |
 
-- **Very high volatility** — 10x stocks, 5x forex
-- **News-driven** — Tweets, regulatory news
-- **Weekend spikes** — Less liquidity = bigger moves
-- **Pump and dumps** — Common in alts
+### Ethereum (ETH)
+
+**The smart contract platform.**
+
+| Feature | Value |
+|---------|-------|
+| Symbol | ETH |
+| Daily Range | 5-12% |
+| Correlation | Technology updates |
+
+### Altcoins
+
+| Type | Examples | Risk |
+|------|----------|------|
+| Utility tokens | BNB, LINK | Medium |
+| DeFi | UNI, AAVE | High |
+| Meme coins | DOGE, SHIB | Very High |
 
 ---
 
-## Best Strategies for Crypto
+## Crypto Trading Strategies
 
 ### 1. Trend Riding
 
-**Why it works:** Massive trends, big momentum
+**Why it works:** Trends can last for weeks.
 
-| Setup | Timeframe | Stop |
-|-------|-----------|------|
-| Breakout | Daily | 20% trail |
-| MA crossover | 4-Hour | Below breakout |
+**Setup:**
+- Daily in uptrend
+- Pullback to support
+- Entry on bounce
+- Stop below low
+- Target: New high
+
+---
 
 ### 2. Volatility Breakout
 
-**Why it works:** Expansion creates huge moves
+**Why it works:** High volatility creates explosive moves.
 
-| Setup | Timeframe | Confirmation |
-|-------|-----------|--------------|
-| Consolidation break | 1-Hour | Volume spike |
-
-### 3. FOMO Entry
-
-**Why it works:** Fear of missing out drives prices
-
-| Setup | Timeframe | Signal |
-|-------|-----------|--------|
-| Green candle + volume | 15-min | Momentum |
-
-### 4. Support Bounce
-
-**Why it works:** Round numbers = liquidity
-
-| Setup | Timeframe | Target |
-|-------|-----------|--------|
-| Test previous low | 1-Hour | Higher highs |
+**Setup:**
+- Consolidation narrowing
+- Volume spike
+- Breakout with momentum
+- Entry on confirmation
+- Stop below consolidation
 
 ---
 
-## Best Tools for Crypto
+### 3. Support Bounce
 
-### Exchanges
+**Why it works:** Round numbers = liquidity pools.
 
-| Exchange | Best For |
-|----------|----------|
-| Binance | Altcoins, futures |
-| Coinbase | Beginners, custody |
-| Kraken | Security, futures |
-| Bybit | Derivatives |
+**Setup:**
+- Tests major support (e.g., $60K, $65K)
+- Rejection candle
+- Entry on bounce
+- Stop below support
 
-### Data Sources
+---
 
-| Source | Use |
-|--------|-----|
-| TradingView | Charts |
-| CoinGecko | Data |
-| Glassnode | On-chain |
-| Coinglass | Liquidation data |
+### 4. Mean Reversion
 
-### Indicators
+**Why it works:** Extreme moves revert to mean.
+
+**Setup:**
+- RSI below 30 or above 70
+- Extreme move
+- Entry on reversion signal
+- Target: Local mean
+
+---
+
+## Understanding Crypto Volatility
+
+### Volatility Levels
+
+| Level | Daily Range | Trading |
+|-------|-------------|---------|
+| Low | 1-3% | Careful |
+| Medium | 3-6% | Normal |
+| High | 6-10%+ | Aggressive |
+
+### Volatility Impact
+
+| Factor | Impact |
+|--------|--------|
+| Position size | Reduce in high volatility |
+| Stop width | Wider stops |
+| Targets | Larger targets possible |
+
+---
+
+## Crypto Risk Management
+
+### Position Sizing (Critical!)
+
+```
+Rule: Never risk more than 1-2% per trade
+
+Formula: Position = Risk ÷ Stop %
+
+Example:
+Account: $10,000
+Risk: 1% = $100
+Stop: 5% drop
+Position: $100 ÷ 5% = $2,000
+```
+
+### Stop Loss Rules
+
+| Rule | Why |
+|------|-----|
+| Always use stops | Capital preservation |
+| Mechanical stops | No emotion |
+| Don't move stops | Trading discipline |
+
+### Max Drawdown Rule
+
+| Drawdown | Action |
+|----------|--------|
+| 5% | Normal |
+| 10% | Reduce size 50% |
+| 15% | STOP TRADING |
+
+---
+
+## Crypto Analysis
+
+### Technical Analysis
 
 | Indicator | Use |
 |-----------|-----|
-| VWAP | Fair value |
-| RSI | Overbought/oversold |
+| 50/200 SMA | Trend direction |
+| RSI | Overbought/Oversold |
 | Volume | Momentum |
-| Moving Averages | Trend |
+| VWAP | Fair value |
+
+### On-Chain Metrics
+
+| Metric | Meaning |
+|--------|---------|
+| Exchange reserves | Sell pressure |
+| HODL waves | Long-term holders |
+| Active addresses | Network activity |
 
 ---
 
-## Asset Classes
+## Common Crypto Mistakes
 
-### Tier 1 (Blue Chip)
+### 1. FOMO Buying
 
-| Coin | Market Cap | Use |
-|------|-----------|-----|
-| Bitcoin | $1T+ | Store of value |
-| Ethereum | $300B+ | Smart contracts |
+**Problem:** Chasing price higher.
 
-### Tier 2 (Large Cap)
+**Result:** Buying the top, selling the bottom.
 
-| Coin | Market Cap | Use |
-|------|-----------|-----|
-| BNB | $50B+ | Exchange token |
-| SOL | $30B+ | Fast chain |
-| XRP | $30B+ | Payments |
-
-### Tier 3 (Altcoins)
-
-Everything else. High risk, high reward.
+**Solution:** Wait for pullbacks.
 
 ---
 
-## Trading Tips
+### 2. Over-Leveraging
 
-### Do
+**Problem:** Using 50-100x leverage.
 
-- Use strict position sizing (never more than 2%)
-- Set hard stop-losses
-- Take profits on big moves
-- Research before buying
+**Result:** Liquidation.
 
-### Don't
-
-- FOMO into pumps
-- Hold through weekends (if trading short-term)
-- Use extreme leverage
-- Invest more than you can afford
+**Solution:** Use 2-5x max.
 
 ---
 
-## Risk Warning
+### 3. No Stop
 
-**Crypto is high-risk:**
+**Problem:** Holding through volatility.
 
-- 80%+ of traders lose money
-- Extreme volatility can wipe accounts
-- No investor protection
-- Scams prevalent
+**Result:** Massive drawdown.
 
-**Only trade crypto with money you can afford to lose entirely.**
+**Solution:** Always use stops.
 
 ---
 
-# Key Takeaways
+### 4. Ignoring Risk
 
-1. **24/7 markets** — No rest
-2. **Extreme volatility** — Big moves, big risks
-3. **High leverage** — Apes blow-ups
-4. **Research first** — Many scams
-5. **Position small** — Never risk more than 2%
+**Problem:** Thinking "it's different this time."
+
+**Result:** Big losses.
+
+**Solution:** Follow risk rules strictly.
 
 ---
 
-# Next Market
+## Trading Hours
 
-Now that you understand Crypto:
+**Always open!** There are no closes in crypto.
 
->>> [stocks.md](./stocks.md) >>>
+| Time | Market Activity |
+|------|-----------------|
+| Weekend | Lower volume, more volatile |
+| US/Europe overlap | Highest volume |
+| Asia session | Lower volatility |
+
+---
+
+## Best Practices
+
+### Do:
+
+- ✅ Use strict position sizing (max 2%)
+- ✅ Set hard stop-losses
+- ✅ Take profits on big moves
+- ✅ Research projects before buying
+- ✅ Use reputable exchanges
+
+### Don't:
+
+- ❌ FOMO into pumps
+- ❌ Hold overnight (if trading short-term)
+- ❌ Use extreme leverage
+- ❌ Invest more than you can afford to lose
+- ❌ Trust random tips
+
+---
+
+## Quick Reference Table
+
+| Coin | Volatility | Best Strategy | Risk |
+|------|-------------|---------------|------|
+| BTC | High | Trend following | Medium |
+| ETH | High | Momentum | Medium-High |
+| BNB | Medium | Platform correlation | Medium |
+| SOL | Very High | Breakout | High |
+| ALT coins | Very High | Speculation | Very High |
+
+---
+
+## Related Topics
+
+- [[foundations/Volatility]] — Manage volatility
+- [[risk-management/Position-Sizing]] — Size properly
+- [[tools/Charting-Tools]] — Analyze charts
+- [[analysis/Sentiment-Analysis]] — Market mood
+
+---
 
 *High risk, high reward. Trade small.*

@@ -1,195 +1,257 @@
 ---
-title: "RSI - Relative Strength Index"
+title: "RSI Indicator: Complete Guide"
 tags:
   - tools
-  - indicators
   - rsi
+  - indicator
   - momentum
+  - technical-analysis
+description: "Master RSI - Relative Strength Index. Learn overbought/oversold levels, divergences, and trading strategies."
+slug: rsi
 ---
 
-# RSI (Relative Strength Index)
+# RSI Indicator: Complete Guide
 
-RSI is a momentum oscillator measuring the speed and change of price movements. It ranges from 0-100.
-
-**Created by:** J. Welles Wilder
+The Relative Strength Index (RSI) is one of the most popular momentum indicators in trading. Created by J. Welles Wilder, it measures the speed and magnitude of price changes.
 
 ---
 
-## How RSI Works
+## What is RSI?
 
-### Formula
+RSI is an oscillating indicator that ranges from 0 to 100. It measures momentum by comparing the magnitude of recent gains to recent losses.
 
 ```
-RSI = 100 - (100 / (1 + RS))
-RS = Average Gain / Average Loss
+RSI Scale:
+100 ─────────
+              ← Overbought (70-100)
+     ████
+              ← Neutral (30-70)
+    ╱    ╲
+           ╲
+           ████
+              ← Oversold (0-30)
+0 ─────────
 ```
-
-- **RSI > 70** = Overbought (potential reversal)
-- **RSI < 30** = Oversold (potential bounce)
-- **RSI = 50** = Neutral
 
 ---
 
-## Settings
+## RSI Formula
 
-| Setting | Default | Use |
-|---------|---------|-----|
-| Period | 14 | Standard |
-| Overbought | 70 | Common |
-| Oversold | 30 | Common |
+```
+RSI = 100 - (100 ÷ (1 + RS))
 
-**Lower period (9):** More sensitive, more signals
-**Higher period (21):** Less sensitive, fewer signals
+RS = Average Gain ÷ Average Loss
+
+Default settings: 14 periods
+```
+
+### Key Levels
+
+| Level | Meaning |
+|-------|---------|
+| 70+ | Overbought (potential reversal) |
+| 30- | Oversold (potential reversal) |
+| 50 | Neutral |
+
+---
+
+## RSI Settings
+
+| Timeframe | Period | Sensitivity |
+|-----------|--------|-------------|
+| Daily | 14 | Standard |
+| 4-Hour | 14 | Standard |
+| 1-Hour | 9-10 | More sensitive |
+| 15-Minute | 7-9 | Very sensitive |
 
 ---
 
 ## How to Use RSI
 
-### 1. Overbought/Oversold
+### 1. Overbought/Oversold (Basic)
 
-**Traditional use:**
-- RSI > 70 → Consider shorting
-- RSI < 30 → Consider buying
+**Traditional interpretation:**
+- RSI > 70 = Overbought = Consider SELLING
+- RSI < 30 = Oversold = Consider BUYING
 
-**Problem in trends:** Strong trends stay overbought/oversold forextended periods.
+**Problem in strong trends:** RSI can stay overbought/oversold for extended periods.
 
----
-
-### 2. Divergences
-
-**Bullish divergence:** Price makes lower low, RSI makes higher low → Potential reversal up
-
-**Bearish divergence:** Price makes higher high, RSI makes lower high → Potential reversal down
-
-```
-Price:      RSI:
-    ↓          ↗ (higher low)
-   low        low
-```
+**Solution:** Only trade reversals in ranging markets.
 
 ---
 
-### 3. RSI MA Crossover
+### 2. Divergence (Advanced)
 
-RSI crossing its moving average:
-- RSI crosses above MA → Buy
-- RSI crosses below MA → Sell
+**Bullish Divergence:**
+```
+Price:      Lower low
+RSI:        Higher low
+Meaning:    Reversal potential UP
+```
+
+**Bearish Divergence:**
+```
+Price:      Higher high  
+RSI:        Lower high
+Meaning:    Reversal potential DOWN
+```
+
+---
+
+### 3. RSI MA Cross
+
+RSI crossing its own moving average:
+
+- RSI crosses above MA = BUY signal
+- RSI crosses below MA = SELL signal
 
 ---
 
 ### 4. Trend Confirmation
 
-- **Uptrend:** RSI stays above 40-50
-- **Downtrend:** RSI stays below 40-50
+| Trend | RSI Behavior |
+|-------|---------------|
+| Uptrend | Stays above 40-50 |
+| Downtrend | Stays below 40-50 |
 
----
-
-## When to Use RSI
-
-### Use when:
-- Market is ranging (not strongly trending)
-- Looking for reversal zones
-- Searching for divergences
-
-### Don't use when:
-- Strong trending (stays overbought/oversold)
-- Choppy market (false signals)
-- Primary entry signal alone
+RSI below 40 in uptrend = Potential buying opportunity
+RSI above 60 in downtrend = Potential selling opportunity
 
 ---
 
 ## RSI Trading Strategies
 
-### Strategy 1: Range Bounce
+### Strategy 1: RSI Reversal (Range)
 
-1. Identify ranging market
-2. Wait for RSI < 30 (oversold)
-3. Price bounces off support
-4. Entry: On bounce confirmation
-5. Stop: Below support
-6. Target: Previous resistance
+```
+Entry Conditions:
+- RSI < 30 (oversold)
+- Price bounces off support
+- Confirmation candle forms
+
+Stop: Below recent swing low
+Target: Previous high, or 2:1
+```
+
+### Strategy 2: RSI Divergence
+
+```
+Entry Conditions:
+- Divergence forms (price vs RSI)
+- Price breaks trendline
+- RSI crosses back to neutral
+
+Stop: Beyond divergence point
+Target: Next structure
+```
+
+### Strategy 3: RSI Trend Confirmation
+
+```
+Entry Conditions:
+- Uptrend confirmed
+- Price at key support
+- RSI bouncing from 40-50
+
+Stop: Below support
+Target: New high
+```
 
 ---
 
-### Strategy 2: Divergence Reversal
+## RSI Best Practices
 
-1. Find divergence (price vs RSI)
-2. Wait for price to break trendline
-3. Entry: On trendline break
-4. Stop: Beyond divergence pivot
+### Timeframes
+
+| Timeframe | Best For |
+|-----------|----------|
+| Daily | Swing trading |
+| 4-Hour | Multiple-day trades |
+| 1-Hour | Intraday |
+
+### Markets
+
+| Market | RSI Effectiveness |
+|--------|------------------|
+| Ranging markets | High |
+| Strong trends | Low (stays extreme) |
+| Crypto | High |
+| Forex | Medium |
 
 ---
 
-### Strategy 3: Trend Confirmation
-
-1. Identify uptrend on price
-2. Price at key support
-3. RSI bouncing from 40-50
-4. Entry: On price confirmation
-5. Stop: Below recent low
-
----
-
-## Common Mistakes
+## Common RSI Mistakes
 
 ### 1. Trading RSI Alone
 
-**Mistake:** Enter when RSI = 30 without price confirmation.
+**Problem:** Entering when RSI = 30 without price confirmation.
 
 **Result:** Price keeps falling.
 
-**Fix:** Wait for price to bounce before entering.
+**Solution:** Wait for price confirmation.
 
 ---
 
-### 2. Ignoring Trend Context
+### 2. Ignoring Trend
 
-**Mistake:** Shorting at RSI = 70 in uptrend.
+**Problem:** Buying at RSI = 30 in strong downtrend.
 
 **Result:** Fighting the trend.
 
-**Fix:** Use RSI with trend direction.
+**Solution:** Use with trend direction.
 
 ---
 
-### 3. Wrong Period Setting
+### 3. Wrong Period
 
-**Mistake:** Using period 14 on 5-minute chart.
+**Problem:** Using 14-period on 5-minute chart.
 
 **Result:** Too many false signals.
 
-**Fix:** Adjust period to timeframe.
+**Solution:** Adjust period to timeframe.
 
 ---
 
-## RSI Settings by Timeframe
+### 4. No Confirmation
 
-| Timeframe | Recommended Period |
-|-----------|----------------|
-| Daily | 14 |
-| 4-Hour | 14 |
-| 1-Hour | 14 |
-| 15-Minute | 9-10 |
-| 5-Minute | 7-9 |
+**Problem:** Trading RSI reading alone.
+
+**Result:** Low success rate.
+
+**Solution:** Combine with support/resistance.
 
 ---
 
-# Key Takeaways
+## RSI vs Other Indicators
 
-1. **Momentum oscillator** — Measures speed of movement
-2. **70/30 levels** — Traditional overbought/oversold
-3. **Divergences** — Find potential reversals
-4. **Use in context** — Don't trade alone
-5. **Adjust period** — Match to timeframe
+| Indicator | Best For |
+|------------|----------|
+| RSI | Mean reversion |
+| MACD | Trend momentum |
+| Stochastic | Fast crossovers |
 
 ---
 
-# Related
+## RSI Checklist
 
->>> [macd.md](./macd.md) >>>
+```
+☐ Trend identified?
+☐ RSI at extreme?
+☐ Price at support/resistance?
+☐ Confirmation formed?
+☐ Stop placed properly?
+☐ Target set?
+```
 
->>> [indicators.md](./indicators.md) >>>
+---
 
->>> [strategies/mean-reversion.md](../05-strategies/mean-reversion.md) >>>
+## Related Topics
+
+- [[tools/Indicators]] — Other indicators
+- [[tools/MACD]] — Momentum indicator
+- [[foundations/Volatility]] — Context
+- [[strategies/RSI-Strategy]] — Trading setup
+
+---
 
 *RSI shows momentum. Confirm with price.*

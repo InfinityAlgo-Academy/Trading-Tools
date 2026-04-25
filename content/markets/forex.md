@@ -1,225 +1,299 @@
 ---
-title: "Forex Markets"
+title: "Complete Forex Trading Guide"
 tags:
   - markets
   - forex
-  - currency
+  - currency-trading
+  - forex-trading
+  - majors
+  - crosses
+description: "Complete guide to forex trading - currency pairs, major pairs, trading hours, strategies, and market characteristics."
+slug: forex
 ---
 
-# Forex Markets
+# Forex Trading: Complete Guide
 
-The foreign exchange (Forex) market is the largest, most liquid financial market in the world. With $7+ trillion traded daily, it's where currencies are exchanged — and where traders find opportunities.
-
----
-
-## What Is Forex?
-
-Forex is the simultaneous buying of one currency and selling of another. Currencies trade in pairs:
-
-- **EUR/USD** — Euro / US Dollar
-- **GBP/USD** — British Pound / US Dollar  
-- **USD/JPY** — US Dollar / Japanese Yen
-
-**Simple example:**
-When you buy EUR/USD, you're buying euros and selling dollars. You profit if the euro rises against the dollar.
+The foreign exchange (forex) market is the largest, most liquid financial market in the world. With $7+ trillion traded daily, it's where currencies are exchanged — and where traders find opportunities.
 
 ---
 
-## Market Characteristics
+## What is Forex Trading?
 
-### Size and Liquidity
+Forex trading is the simultaneous buying of one currency and selling of another. Currencies trade in pairs:
+
+```
+EUR/USD = Euro / US Dollar
+GBP/USD = British Pound / US Dollar
+USD/JPY = US Dollar / Japanese Yen
+```
+
+### How It Works
+
+When you buy EUR/USD:
+- You're BUYING euros
+- You're SELLING dollars
+- You profit if euro strengthens vs dollar
+
+---
+
+## Forex Market Characteristics
+
+### Market Size
 
 | Feature | Value |
 |---------|-------|
 | Daily Volume | $7+ trillion |
-| Major Pairs | 7 (EUR, GBP, JPY, CHF, CAD, AUD, NZD) |
+| Major Pairs | 7 major currencies |
 | Spread | 0.1-2 pips (very tight) |
 | Commission | Very low or zero |
 
-### Trading Hours
+### Trading Hours (24/5)
 
 ```
-Market Hours (UTC)
+Sessions (UTC):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Sydney     ████████
-Tokyo     ████████████
-London    █████████████████
-New York  █████████████
-               Overlap
-───────────────────────────────
-00:00   08:00  12:00  16:00  20:00  24:00
-       Asian    European     US
+Sydney:     22:00-07:00
+Tokyo:      00:00-09:00
+London:     08:00-17:00
+New York:   13:00-22:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Overlaps:
+London/New York: 13:00-17:00 (Most volatile)
 ```
 
-- **Asian Session:** 00:00-08:00 UTC
-- **European Session:** 08:00-16:00 UTC
-- **US Session:** 13:00-21:00 UTC
-- **Overlaps:** Busiest periods
+---
 
-### Leverage
+## Major Currency Pairs
 
-- **Typical:** 10:1 to 30:1
-- **Regulation:** Varies by jurisdiction (ESMA: 30:1 max for EUR/USD)
+### Tier 1: Major Pairs
+
+| Pair | Nickname | Characteristics |
+|------|---------|----------------|
+| EUR/USD | "Euro" | Most liquid, tightest spread |
+| GBP/USD | "Cable" | Higher volatility |
+| USD/JPY | "Yen" | Safe haven flows |
+| USD/CHF | "Swissie" | Safe haven, low volatility |
+| USD/CAD | "Loonie" | Oil correlation |
+| AUD/USD | "Aussie" | Commodity linked |
+| NZD/USD | "Kiwi" | Risk sentiment |
+
+### Tier 2: Crosses
+
+| Pair | Characteristics |
+|------|----------------|
+| EUR/GBP | British/Euro correlation |
+| EUR/JPY | High volatility crosses |
+| GBP/JPY | High volatility crosses |
+| EUR/CHF | Safe haven cross |
 
 ---
 
-## Volatility Profile
-
-### Average Daily Range
-
-| Pair | Daily Range (pips) |
-|------|-------------------|
-| EUR/USD | 70-100 |
-| GBP/USD | 80-130 |
-| USD/JPY | 60-90 |
-| AUD/USD | 60-90 |
-| USD/CHF | 60-90 |
-
-### Volatility Characteristics
-
-- **Low-Medium volatility** — Relatively stable
-- **Session-based swings** — Higher during overlaps
-- **News-driven** — Major moves on data
-- **Trend-friendly** — Long, sustained trends
-
----
-
-## Best Strategies for Forex
+## Forex Trading Strategies
 
 ### 1. Trend Following
 
-**Why it works:** Major pairs trend for weeks/months
+**Best for:** EUR/USD, GBP/USD, AUD/USD
 
-| Setup | Timeframe | Stop |
-|-------|-----------|------|
-| MA crossover | Daily | 2 ATR |
-| Breakout | 4-Hour | Recent swing |
+**Why it works:** Major pairs trend for weeks/months. Higher timeframe trends are reliable.
+
+**Setup:**
+- Daily chart in uptrend
+- Price pulls back to 50 EMA
+- Entry on bounce confirmation
+- Stop below swing low
+- Target: New high
+
+---
 
 ### 2. Carry Trading
 
-**Why it works:** Interest rate differentials
+**Best for:** AUD/JPY, NZD/JPY, EUR/CHF
 
-**Strategy:**
-1. Buy high-yielding currency (AUD, NZD)
-2. Sell low-yielding currency (JPY)
-3. Collect overnight interest + price movement
+**Why it works:** Interest rate differentials create overnight income.
+
+**Setup:**
+- Buy high-yielding currency (AUD, NZD)
+- Sell low-yielding currency (JPY)
+- Hold overnight for interest
+- Plus capital gains
+
+---
 
 ### 3. Range Trading
 
-**Why it works:** Major pairs range within bounds
+**Best for:** EUR/USD, USD/JPY
 
-| Setup | Timeframe | Target |
-|-------|-----------|--------|
-| Support buy | 4-Hour | Upper range |
-| Resistance sell | 4-Hour | Lower range |
+**Why it works:** Major pairs range within defined boundaries.
+
+**Setup:**
+- Identify range boundaries
+- Buy at support
+- Sell at resistance
+- Stop outside range
+
+---
 
 ### 4. Breakout Trading
 
-**Why it works:** High liquidity = clean breaks
+**Best for:** GBP/JPY, AUD/JPY (volatile crosses)
 
-| Setup | Timeframe | Confirmation |
-|-------|-----------|--------------|
-| Level breakout | 1-Hour | Close beyond level |
+**Why it works:** Volatile pairs break with momentum.
 
----
-
-## Best Tools for Forex
-
-### Platforms
-
-| Platform | Best For |
-|----------|----------|
-| MetaTrader 4/5 | Industry standard |
-| TradingView | Analysis |
-| cTrader | ECN execution |
-
-### Indicators
-
-| Indicator | Use |
-|-----------|-----|
-| Moving Averages | Trend direction |
-| ATR | Volatility/sizing |
-| Fibonacci | Levels |
-| Ichimoku | Multi-factor |
-
-### Data Sources
-
-| Source | Use |
-|--------|-----|
-| TradingEconomics | Economic calendar |
-| OANDA | Currency rates |
-| yfinance | Historical data |
+**Setup:**
+- Consolidation narrowing
+- Volume spike on break
+- Entry on close beyond level
+- Stop inside consolidation
+- Target:Previous range × 2
 
 ---
 
-## Major Pairs Overview
+## Forex Technical Analysis
 
-### EUR/USD ("Euro")
+### Key Indicators for Forex
 
-- **The most traded pair**
-- Tightest spreads
-- Best for beginners
-- Trend follows interest rate differential
-
-### GBP/USD ("Cable")
-
-- **Higher volatility than EUR/USD**
-- More volatile around UK data
-- Affected by Brexit/political news
-
-### USD/JPY ("Yen Pair")
-
-- **Safe haven flows**
-- Reactive to risk sentiment
-- BOJ policy impacts
-
-### USD/CHF ("Swissie")
-
-- **Safe haven pair**
-- Low volatility
-- SNB interventions
-
-### AUD/USD ("Aussie")
-
-- **Commodity correlation**
-- China-sensitive
-- High-yielding
+| Indicator | Use | Best Pairs |
+|-----------|-----|------------|
+| SMA (50, 200) | Trend direction | All |
+| EMA (9, 21) | Entry timing | All |
+| RSI (14) | Overbought/Oversold | EUR/USD, GBP/USD |
+| MACD (12,26,9) | Momentum | All |
+| Bollinger Bands | Volatility | EUR/USD, GBP/USD |
+| ATR (14) | Position sizing | All |
 
 ---
 
-## Trading Tips
+### Support & Resistance
 
-### Do
-
-- Trade major pairs starting out
-- Use tight spreads to your advantage
-- Follow major session overlaps
-- Trade with the trend
-
-### Don't
-
-- Over-leverage despite available margin
-- Trade during low-volume Asian session for major moves
-- Ignore central bank policy
-- Trade random news events
+| Method | Why It Works |
+|--------|-------------|
+| Daily/Weekly lows | Stop buy orders |
+| Daily/Weekly highs | Stop sell orders |
+| Round numbers | Psychological levels |
+| Pivot points | Market-generated |
 
 ---
 
-# Key Takeaways
+## Risk Management in Forex
 
-1. **Largest, most liquid market** — Easy entries/exits
-2. **Low volatility** — More stable, less surprise
-3. **24/5 trading** — Flexible schedules
-4. **Carry trades possible** — Interest income
-5. **Major pairs** — Start with EUR/USD, GBP/USD
+### Position Sizing
+
+```
+Formula: Position Size = Risk ÷ (Stop Pips × Pip Value)
+
+Example:
+Account: $10,000
+Risk: 2% = $200
+Stop: 50 pips
+Pip Value: $10/pip (for 1 standard lot)
+Position: $200 ÷ (50 × $10) = 0.4 lots
+```
+
+### Risk/Reward
+
+**Minimum:** 1:1
+**Ideal:** 2:1 or higher
 
 ---
 
-# Next Market
+## Trading Hours & Volatility
 
-Now that you understand Forex:
+### Most Volatile (Best for Trading)
 
->>> [crypto.md](./crypto.md) >>>
+| Session | Pair | Time (UTC) |
+|---------|-----|------------|
+| London | EUR/USD | 08:00-11:00 |
+| Overlap | All majors | 13:00-17:00 |
+| NY Open | EUR/USD | 13:00-16:00 |
+
+### Least Volatile (Avoid)
+
+| Time | Pair |
+|------|------|
+| 22:00-02:00 | Asian session |
+| 04:00-06:00 | Post-tokyo |
+
+---
+
+## Common Forex Mistakes
+
+### 1. Over-Leveraging
+
+**Problem:** Using 50:1 or 100:1 leverage
+
+**Result:** Quick blow-up
+
+**Solution:** Use 10:1 max, calculate position properly
+
+---
+
+### 2. Trading During Low Volatility
+
+**Problem:** Trading Asian session
+
+**Result:** False breakouts, no movement
+
+**Solution:** Trade overlaps only
+
+---
+
+### 3. Ignoring Interest Rates
+
+**Problem:** Not considering rate differential
+
+**Result:** Overnight losses in carry pairs
+
+**Solution:** Know the interest rates before holding
+
+---
+
+### 4. No Stop Loss
+
+**Problem:** Hope trading
+
+**Result:** Account blow-up
+
+**Solution:** Always use stops
+
+---
+
+## Quick Reference Table
+
+| Pair | Daily Range | Volatility | Best Strategy |
+|------|-------------|------------|---------------|
+| EUR/USD | 60-80 pips | Medium | Trend following |
+| GBP/USD | 80-120 pips | High | Breakout |
+| USD/JPY | 40-60 pips | Low | Range |
+| USD/CAD | 60-90 pips | Medium | Crude oil link |
+| AUD/USD | 50-80 pips | Medium | Trend following |
+
+---
+
+## Best Practices
+
+### Do:
+
+- ✅ Trade major pairs starting out
+- ✅ Use tight spreads
+- ✅ Trade during overlaps
+- ✅ Follow the trend
+
+### Don't:
+
+- ❌ Over-leverage
+- ❌ Trade during low-volume
+- ❌ Ignore central banks
+- ❌ Trade random news
+
+---
+
+## Related Topics
+
+- [[foundations/Market-Structure]] — Understand trends
+- [[foundations/Volatility]] — Use ATR
+- [[risk-management/Position-Sizing]] — Size properly
+- [[tools/Indicators]] — Analyze charts
+
+---
 
 *Master the majors first. Then expand.*

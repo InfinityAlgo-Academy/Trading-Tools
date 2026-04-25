@@ -1,207 +1,339 @@
 ---
-title: "Order Types"
+title: "Order Types: Complete Guide"
 tags:
   - foundations
   - order-types
   - execution
+  - trading
+  - broker
+description: "Master order types - market, limit, stop, and OCO orders. Learn when to use each and how to execute properly."
+slug: order-types
 ---
 
-# Order Types
+# Order Types: Complete Guide
 
-Your strategy is worthless if your execution fails. The right order type at the right time can mean the difference between profit and loss.
-
----
-
-## What Are Order Types?
-
-Order types determine how your trade gets executed. Different situations require different orders.
-
-**Simple definition:** Instructions for entering or exiting a trade.
+Your trading success depends not just on analysis, but on execution. Understanding order types is critical for getting in and out at the right prices.
 
 ---
 
-## Types of Orders
+## Order Types Overview
 
-### Market Order
+### 1. Market Order
 
-Execute immediately at the current market price.
+**Definition:** Execute immediately at current market price.
 
-**How it works:**
 ```
-You: Buy 1 lot at market
-Broker: Filled at current price immediately
+You: BUY at market
+Filled: Current price (instant)
 ```
+
+**Use for:**
+- Fast-moving markets
+- Breakout entries
+- When execution speed matters
 
 **Pros:**
 - Guaranteed execution
-- Fastest entry
+- Fast entry
+- Simple
 
 **Cons:**
 - No price guarantee
 - Slippage possible in volatile markets
 
-**Best for:**
-- Fast-moving breakout trades
-- When speed matters
-- In stable liquidity conditions
-
 ---
 
-### Limit Order
+### 2. Limit Order
 
-Execute only at your specified price or better.
+**Definition:** Execute only at your specified price or better.
 
-**How it works:**
 ```
-You: Buy at 1.1000 or better
-Price: Currently 1.1020
-Filled: When/if price drops to 1.1000
+You: BUY at 1.1000
+Price: Currently 1.1050
+Filled: When/if price reaches 1.1000
 ```
+
+**Use for:**
+- Entries at specific levels
+- Better fill prices
+- Range trading
 
 **Pros:**
 - Price control
-- Avoids slippage
-- Can get better fill
+- No slippage
+- Better pricing
 
 **Cons:**
 - May not execute
 - Missed opportunities
 
-**Best for:**
-- Entries at specific levels
-- Range trading
-- When price has to reach your level
-
 ---
 
-### Stop Order (Stop-Loss Order)
+### 3. Stop Order (Stop-Loss Order)
 
-Execute when price passes your specified level.
+**Definition:** Execute when price passes your specified level.
 
-**How it works:**
 ```
-You: Stop buy at 1.1050
-Price: Currently 1.1020
+You: BUY stop at 1.1050
+Price: Currently 1.1000
 Filled: When price rises to 1.1050
 ```
+
+**Use for:**
+- Breakout entries
+- Protections (stop-loss)
+- After-hours trading
 
 **Pros:**
 - Automatic execution
 - Catches momentum
-- Catches breakouts
+- Professional exits
 
 **Cons:**
 - May execute at worse price
 - False breakout risk
 
-**Best for:**
-- Breakout entries
-- Stop-loss exits
-- After-hours trading
-
 ---
 
-### Stop-Limit Order
+### 4. Stop-Limit Order
 
-Stop order that becomes a limit order once triggered.
+**Definition:** Stop order that becomes a limit order once triggered.
 
-**How it works:**
 ```
-You: Stop limit buy at 1.1050
+You: BUY stop limit at 1.1050 limit 1.1055
 Trigger: Price reaches 1.1050
-Then: Limit order activates at 1.1050
+Then: Limit order activates at 1.1050-1.1055
 ```
+
+**Use for:**
+- Precise breakout entry
+- Reducing slippage risk
+- Controlled entries
 
 **Pros:**
-- Price control after trigger
-- Maximum fill price guaranteed
+- Price control
+- Slippage prevention
 
 **Cons:**
 - May not fill
-- More complex
-
-**Best for:**
-- Precise entries
-- Reducing slippage risk on stops
+- Complex
 
 ---
 
-## Order Execution
+### 5. Take Profit Order (T/P)
 
-### Instant Market (Fill or Kill)
+**Definition:** Close position automatically at profit target.
 
-全部成交否则取消 — Execute entirely now or cancel.
+```
+You: Long at 1.1000, T/P at 1.1100
+Price: Reaches 1.1100
+Filled: Automatically at profit
+```
 
-**Use for:** When you must enter exactly this size
+**Use for:**
+- Locking profits
+- No monitoring needed
+- Systematic exits
 
 ---
 
-### Partial Fills
+### 6. OCO Order (One Cancels the Other)
 
-Your order fills in multiple pieces.
+**Definition:** Two orders; one fills, the other cancels.
 
-**Use for:** Large orders in thin liquidity
+```
+You: Long at 1.1000
+OCO: Stop at 1.0900, T/P at 1.1200
+
+Either:
+- Price hits T/P (1.1200) = PROFIT, stop cancelled
+- Price hits stop (1.0900) = LOSS, T/P cancelled
+```
+
+**Use for:**
+- Managing risk/reward
+- No monitoring
+- Professional exits
+
+---
+
+## Order Execution Types
+
+### Fill or Kill (FOK)
+
+Execute ENTIRE order immediately or cancel completely.
+
+**Use for:** When you must enter EXACTLY this size
+
+---
+
+### Immediate or Cancel (IOC)
+
+Execute what is possible NOW, cancel rest.
+
+**Use for:** Partial fills acceptable
+
+---
+
+### Good Till Cancel (GTC)
+
+Order stays active until executed or manually cancelled.
+
+**Use for:** Swing trades, pending setups
+
+---
+
+## When to Use Each Order Type
+
+### Market Order
+
+| Situation | Why |
+|-----------|-----|
+| Breaking out | Need in NOW |
+| News event | Fast entry |
+| Panic selling | Exit immediately |
+
+### Limit Order
+
+| Situation | Why |
+|-----------|-----|
+| At support level | Better entry |
+| Range trading | Entry at edge |
+| Retest entry | More precise |
+
+### Stop Order
+
+| Situation | Why |
+|-----------|-----|
+| Breakout entry | Catch momentum |
+| Stop-loss | Protect capital |
+| Trailing stops | Lock profits |
+
+---
+
+## Order Execution in Different Markets
+
+### Forex
+
+| Order Type | Availability |
+|------------|--------------|
+| Market | Yes |
+| Limit | Yes |
+| Stop | Yes |
+| OCO | Yes |
+
+### Crypto
+
+| Order Type | Availability |
+|------------|--------------|
+| Market | Yes |
+| Limit | Yes |
+| Stop | Yes |
+| OCO | Exchange dependent |
+
+### Stocks
+
+| Order Type | Availability |
+|------------|--------------|
+| Market | Yes |
+| Limit | Yes |
+| Stop | Yes |
 
 ---
 
 ## Common Mistakes
 
-### 1. Using Market Orders in Low Liquidity
+### 1. Market Orders in Low Liquidity
 
-**Mistake:** Market order when few counterparties exist.
+**Problem:** Using market order in illiquid market.
 
-**Result:** Terrible fills, massive slippage.
+**Result:** Huge slippage.
 
-**Fix:** Use limit orders in low liquidity.
+**Solution:** Use limit orders in thinly traded markets.
 
 ---
 
 ### 2. Using Limit Orders on Breakouts
 
-**Missed setup when price doesn't reach your level.
+**Problem:** Waiting for limit when breakout happens.
 
-Fix: Use stop orders for breakouts.
+**Result:** Missed moves.
 
----
-
-### 3. Not Using Stop-Loss Orders
-
-**Mistake:** Holding and hoping.
-
-**Result:** Large losses, blown accounts.
-
-**Fix:** Always use stop-loss orders.
+**Solution:** Use stop orders for breakouts.
 
 ---
 
-## Order Type Summary
+### 3. No Stop-Loss Orders
 
-| Situation | Best Order Type |
-|-----------|-----------------|
-| Fast breakout | Market or Stop |
-| Specific level entry | Limit |
-| Protecting against loss | Stop |
-| Precise breakout | Stop-Limit |
-| Guaranteed entry | Market |
+**Problem:** Not using stop-losses.
+
+**Result:** Blows account.
+
+**Solution:** Always use stop-loss orders.
 
 ---
 
-# Key Takeaways
+### 4. Moving Stops
 
-1. **Market orders** = Fast but no price guarantee
-2. **Limit orders** = Price control but may not fill
-3. **Stop orders** = Catch momentum but slippage risk
-4. **Match order type to situation** = Don't use one size fits all
-5. **Always use stops** = Protect your capital
+**Problem:** Moving stop to avoid loss.
+
+**Result:** Larger loss.
+
+**Solution:** Set and forget.
 
 ---
 
-# Connect to Other Sections
+## Professional Tips
 
-Now you understand order types:
+### Tip 1: Order Stacking
 
-- [[market-structure]] — How structure affects execution
-- [[liquidity]] — How liquidity affects fills
-- [[05-strategies]] — Strategy-specific order types
+```
+Place:
+1. Entry limit order
+2. Stop order
+3. Take profit order
+
+All three work together automatically.
+```
+
+### Tip 2: Order Confirmation
+
+```
+Before placing order:
+✓ Check spread
+✓ Check volume
+✓ Check time
+✓ Confirm analysis
+```
+
+### Tip 3: Demo Testing
+
+```
+Test all order types on demo before live.
+Know how your broker fills orders.
+```
+
+---
+
+## Quick Reference Table
+
+| Situation | Use Order |
+|----------|-----------|
+| Fast breakout | Market |
+| At support | Limit |
+| Confirming break | Stop |
+| Protecting loss | Stop-loss |
+| Locking profit | Take profit |
+| Two-way exit | OCO |
+
+---
+
+## Related Topics
+
+- [[foundations/Market-Structure]] — Order flow
+- [[tools/Platforms]] — Trading execution
+- [[risk-management/Stop-Loss]] — Protect capital
+
+---
 
 *Execute smart. Trade safe.*

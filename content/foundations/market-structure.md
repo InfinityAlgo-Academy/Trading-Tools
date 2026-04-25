@@ -1,229 +1,408 @@
 ---
-title: "Market Structure"
+title: "Complete Market Structure Guide"
 tags:
   - foundations
   - market-structure
+  - price-action
+  - trends
+  - support-resistance
+  - trading-basics
+description: "Master market structure - the foundation of all technical analysis. Learn trends, ranges, support, resistance, and price action."
+slug: market-structure
 ---
 
-# Market Structure
+# Market Structure: The Foundation of Trading
 
-Markets aren't random chaos. They move in identifiable patterns — trending and ranging. Understanding structure is the first skill every trader must develop.
-
----
-
-## What Is Market Structure?
-
-Market structure is the underlying organization of price movement. It answers:
-
-- Is this market trending or ranging?
-- Where are the key levels?
-- What should I be watching for?
-
-Without knowing the structure, you can't determine which strategy to use.
+Market structure is the backbone of all technical analysis. Before you learn indicators or patterns, you must understand how markets move.
 
 ---
 
-## Two States of Market Structure
+## What is Market Structure?
 
-### 1. Trending
+Market structure is the underlying framework that governs how price moves. It tells you:
 
-Price moves in one direction with continuous higher highs and higher lows (uptrend) or lower highs and lower lows (downtrend).
+- **Direction** — Is the market trending up, down, or sideways?
+- **Structure** — Are buyers or sellers in control?
+- **Levels** — Where are key support and resistance zones?
 
-#### Uptrend Structure
+**Without understanding structure, every indicator is meaningless.**
+
+---
+
+## Two Market States
+
+### 1. Trending Markets
+
+A market is trending when price makes consecutive higher highs (uptrend) or lower lows (downtrend).
+
+#### Uptrend Indicators
 
 ```
-       H
-        \
-         \   H
-          \   \
-           \   L
-            \   \
-             H   L
-              \   \
-               L   H
-                \
-                 H
+     Higher High (HH)
+          ↗
+    ↗         ↗
+  ↗               ↗
+↗                     ↗
+  Higher Low (HL)
 ```
 
-**Key characteristics:**
+**Characteristics:**
+- Price above moving average
 - Higher highs (HH)
 - Higher lows (HL)
 - Bullish momentum
 
-#### Downtrend Structure
+#### Downtrend Indicators
 
 ```
-                 L
-                /
-              L /
-            / /
-          L /
-        / /
-      L / L
-    / / /
-  H / L
-/   /
-H /
-L
+  Lower Low (LL)
+↗
+  ↗               ↗
+    ↗         ↗
+      ↗     ↗
+          ↗
+    Lower High (LH)
 ```
 
-**Key characteristics:**
+**Characteristics:**
+- Price below moving average
 - Lower lows (LL)
 - Lower highs (LH)
 - Bearish momentum
 
 ---
 
-### 2. Ranging
+### 2. Ranging Markets (Sideways)
 
-Price oscillates between defined support and resistance with no clear trend.
+A market is ranging when price moves between defined support and resistance without making new highs or lows.
 
 ```
     Resistance
-    ━━━━━━━━━━
+    ═══════════════════
            ╲
             ╲
              ╲
               ╲
                ╲
-    ━━━━━━━━━━  ╱
-    Support    ╱
+    ═══════════════════
+    Support
 ```
 
-**Key characteristics:**
-- Price bounded by levels
-- Swing highs touch resistance
-- Swing lows touch support
+**Characteristics:**
+- Price bounded horizontally
+- No clear directional bias
+- Consolidation phase
+- Accumulation or distribution
 
 ---
 
-## Identifying Market Structure
+## Key Structural Concepts
 
 ### Swing Highs and Lows
 
-**Swing High** — A price peak followed by a decline on both sides.
+**Swing High** — A peak where price reverses in both directions.
 
-**Swing Low** — A price trough followed by a rise on both sides.
+**Swing Low** — A trough where price reverses in both directions.
 
 ```
-     Swing High
+        Swing High
+             ↗
+       ↗    ╱  ↘
+      ╱    ╱
+     ╱    ╱
+    ╱    ╱
+   ↘    ↘
+ Swing Low
+```
+
+**Why they matter:** 
+- Swing highs become resistance
+- Swing lows become support
+- Breaking structure = trend change
+
+---
+
+### Support and Resistance
+
+#### Support
+
+A price level where buying pressure exceeds selling pressure.
+
+**Characteristics:**
+- Previous swing lows
+- Round numbers
+- High volume areas
+- Psychological levels
+
+**How to identify:**
+- Test previous lows
+- Watch for price bouncing
+- Volume increases at level
+
+#### Resistance
+
+A price level where selling pressure exceeds buying pressure.
+
+**Characteristics:**
+- Previous swing highs
+- Round numbers
+- High volume areas
+- Psychological levels
+
+**How to identify:**
+- Test previous highs
+- Watch for rejections
+- Volume spikes at level
+
+---
+
+### Dynamic vs Static Levels
+
+| Level Type | Description | Example |
+|-----------|-------------|----------|
+| Static | Fixed price levels | 1.1000, 1.2000 |
+| Dynamic | Moving levels | Moving averages, trendlines |
+
+**Static support/resistance:**
+- Horizontal lines
+- Don't move with price
+- Multiple touches weaken
+
+**Dynamic support/resistance:**
+- Moving averages
+- Trendlines
+- Adjust with price
+
+---
+
+## Trend Identification Methods
+
+### Method 1: Price Structure
+
+```
+Uptrend: HH > HH and HL > HL
+Downtrend: LH < LH and LL < LL
+```
+
+### Method 2: Moving Average
+
+```
+Price above 50 SMA = Uptrend
+Price below 50 SMA = Downtrend
+```
+
+### Method 3: Trendlines
+
+```
+Draw line connecting HH (uptrend)
+Draw line connecting LL (downtrend)
+```
+
+---
+
+## Market Structure Timeframes
+
+### Higher Timeframe (Direction)
+
+- Monthly/Weekly charts
+- Overall market direction
+- Major support/resistance
+
+**Use for:** Are we buying or selling?
+
+### Middle Timeframe (Structure)
+
+- Daily/4H charts
+- Current trend
+- Key levels
+
+**Use for:** Where are we trading?
+
+### Lower Timeframe (Entry)
+
+- 1H/15M charts
+- Entry timing
+- Stop placement
+
+**Use for:** When do we enter?
+
+---
+
+## Common Structure Patterns
+
+### 1. Higher Highs, Higher Lows (Uptrend)
+
+```
+         HH (new high)
           ↗
-    ↗   ╱  ↘
-   ╱   ╱
-  ╱   ╱
- ╱   ╱
-╱   ╱
-Swing Low
+    HH    ↗
+     ↗     ↗
+ HL  ↗       ↗
+  ↗  ↗       ↗
+LL
 ```
 
-### Trend Change: Structure Break
-
-A trend changes when price breaks the previous swing:
-
-- **Upregturn fails:** Price breaks below previous swing low
-- **Downtrend fails:** Price breaks above previous swing high
+**Trading:** Buy on pullbacks to support
 
 ---
 
-## Liquidity in Structure
+### 2. Lower Highs, Lower Lows (Downtrend)
 
-Liquidity pools form at key structure points:
+```
+         LL (new low)
+          ↗
+    LH    ↗
+     ↗     ↗
+ LH  ↗       ↗
+  ↗  ↗       ↗
+HH
+```
 
-### Above Recent Highs
-
-When price approaches previous highs, liquidity (stop orders) cluster there. This creates:
-
-- **Stop liquidity:** Traders set stops above highs
-- **Trap potential:** Price may spike into stops then reverse
-
-### Below Recent Lows
-
-Same principle applies to lows:
-
-- **Stop liquidity:** Stops below lows
-- **Breakout potential:** Price spikes into liquidity then continues
+**Trading:** Sell on rallies to resistance
 
 ---
 
-## Trading Based on Structure
+### 3. Double Top
 
-### In a Trending Market
-
-| Strategy | Purpose |
-|----------|---------|
-| Trend following | Enter on pullbacks |
-| Breakout trading | Enter on structure breaks |
-| Pullback entries | Enter at Fibonacci levels |
-
-### In a Ranging Market
-
-| Strategy | Purpose |
-|----------|---------|
-| Range trading | Buy at support, sell at resistance |
-| Fade breakouts | Trade against false breaks |
-| Mean reversion | Trade to/from extremes |
+```
+        Resistance
+    ╱           ╲
+   ╱             ╱
+  ╱             ╱
+ ╱             ╱
+╱             ╱
+Break below neckline = Bearish
+```
 
 ---
 
-## Structure Timeframes
+### 4. Double Bottom
 
-Structure exists on every timeframe:
+```
+        Support
+    ╲           ╱
+     ╲         ╱
+      ╲       ╱
+       ╲     ╱
+        ╲   ╱
+Break above neckline = Bullish
+```
 
-| Timeframe | Use |
-|-----------|-----|
-| Monthly/Weekly | Long-term structure |
-| Daily | Primary trend |
-| 4-Hour | Medium structure |
-| 1-Hour | Short-term setup |
+---
+
+## Structure and Trading
+
+### In an Uptrend:
+
+| Strategy | Why |
+|----------|-----|
+| Trend following | With momentum |
+| Buy pullbacks | Better risk/reward |
+| Breakouts | Continuation likely |
+
+### In a Downtrend:
+
+| Strategy | Why |
+|----------|-----|
+| Trend following | With momentum |
+| Sell rallies | Better risk/reward |
+| Breakdowns | Continuation likely |
+
+### In a Range:
+
+| Strategy | Why |
+|----------|-----|
+| Range trading | Bounded |
+| Buy support, sell resistance | Defined |
+| Fade breakouts | No momentum |
+
+---
+
+## Advanced Structure Concepts
+
+### Order Flow Basics
+
+**Where are the orders?**
+- Above highs = Stop liquidity
+- Below lows = Stop liquidity
+- At support = Buy orders
+- At resistance = Sell orders
+
+**Price seeks liquidity** — Moves toward clustered stops, then reverses.
+
+---
+
+### Liquidity Pools
+
+| Pool Type | Location | What Happens |
+|-----------|----------|-------------|
+| Stop liquidity | Above highs | Stops getting run |
+| Stop liquidity | Below lows | Stops getting run |
+| Buy orders | Support | Bounce potential |
+| Sell orders | Resistance | Rejection potential |
 
 ---
 
 ## Common Mistakes
 
-### 1. Trading Breakouts in Ranges
+### 1. Fighting the Trend
 
-**Mistake:** Buying breakouts when price is ranging.
+**Mistake:** Trading against clear structure.
 
-**Result:** False breakouts, accumulating losses.
+**Result:** Consistent losses.
 
-**Fix:** Confirm trending structure before breakout trades.
-
----
-
-### 2. Fighting the Trend
-
-**Mistake:** Trading against structure.
-
-**Result:** Fighting the tape.
-
-**Fix:** Follow the structure, don't fight it.
+**Fix:** Always trade with trend.
 
 ---
 
-### 3. Ignoring Structure Signals
+### 2. Ignoring Structure
 
 **Mistake:** Trading without checking structure.
 
-**Result:** Mistimed entries.
+**Result:** Wrong direction trades.
 
-**Fix:** Always identify structure first.
-
----
-
-# Key Takeaways
-
-1. **Markets have two states:** Trending and ranging
-2. **Structure tells you what strategy to use**
-3. **Liquidity pools at structure points**
-4. **Structure breaks signal potential reversals**
-5. **Check structure on your timeframe and higher**
+**Fix:** Identify structure first.
 
 ---
 
-# Next Step
+### 3. Static Only Levels
 
-Now that you understand market structure:
+**Mistake:** Only using horizontal lines.
 
->>> [liquidity.md](./liquidity.md) >>>
+**Fix:** Add dynamic levels (MAs, trendlines).
 
-*Structure first. Strategy second.*
+---
+
+### 4. No Confirmation
+
+**Mistake:** Trading level without confirmation.
+
+**Result:** False breakouts.
+
+**Fix:** Wait for price action confirmation.
+
+---
+
+## Trading Checklist
+
+```
+☐ Identified trend or range?
+☐ Found key levels?
+☐ Trading with trend?
+☐ Using confirmation?
+☐ Placed stop correctly?
+```
+
+---
+
+## Related Topics
+
+- [[foundations/Volatility]] — Price movement magnitude
+- [[foundations/Liquidity]] — Order flow
+- [[foundations/Timeframes]] — Chart timeframes
+- [[analysis/Price-Action]] — Reading candles
+- [[tools/Indicators]] — Confirming structure
+
+---
+
+*Master structure first. Everything else builds on this.*

@@ -1,235 +1,224 @@
 ---
-title: "Timeframes"
+title: "Timeframes: Complete Guide"
 tags:
   - foundations
   - timeframes
+  - charts
+  - trading
+  - analysis
+description: "Master chart timeframes - from monthly to 1-minute. Learn which timeframe to use and how to analyze multiple timeframes."
+slug: timeframes
 ---
 
-# Timeframes
+# Timeframes: Complete Trading Guide
 
-Every trader sees a different chart. The monthly trader sees a clear trend. The 1-minute trader sees chaos. Your timeframe determines what you see — and what you trade.
-
----
-
-## What Is a Timeframe?
-
-A timeframe is the period each candlestick represents:
-
-| Abbreviation | Timeframe | Common Use |
-|-------------|-----------|------------|
-| M1 | 1 minute | Scalping |
-| M5 | 5 minutes | Short-term |
-| M15 | 15 minutes | Day trading |
-| H1 | 1 hour | Swing trading |
-| H4 | 4 hours | Swing trading |
-| D1 | 1 day | Position trading |
-| W1 | 1 week | Long-term |
-| MN | 1 month | Investing |
+Every chart shows the same market, but at different scales. Your timeframe determines what you see — and your edge.
 
 ---
 
-## The Timeframe Hierarchy
+## What is a Timeframe?
 
-Charts should be analyzed in a hierarchy:
+A timeframe is the period each candlestick represents.
+
+| Timeframe | Time Represented |
+|----------|-------------------|
+| Monthly | 1 month |
+| Weekly | 1 week |
+| Daily | 1 day |
+| 4-Hour | 4 hours |
+| 1-Hour | 1 hour |
+| 15-Minute | 15 minutes |
+| 5-Minute | 5 minutes |
+| 1-Minute | 1 minute |
+
+---
+
+## Timeframe Hierarchy
+
+### The Three-Level System
 
 ```
-Higher     ─────────────────  Direction
-                    ╲
-                     ╲
-Middle     ─────────────────  Structure
-                       ╲
-                        ╲
-Lower      ─────────────────  Entry
+┌─────────────────────────────────────────────┐
+│ Higher Timeframe (HTF)                     │
+│ Monthly/Weekly                             │
+│ "What's the big picture?"                  │
+│ Direction, major levels                    │
+└─────────────────────────────────────────────┘
+              ↓
+┌─────────────────────────────────────────────┐
+│ Middle Timeframe (MTF)                     │
+│ Daily/4H                                    │
+│ "What's trading?"                          │
+│ Current trend, key levels                   │
+└─────────────────────────────────────────────┘
+              ↓
+┌─────────────────────────────────────────────┐
+│ Lower Timeframe (LTF)                       │
+│ 1H/15M/5M                                  │
+│ "When do I enter?"                         │
+│ Entry timing, stop placement                │
+└─────────────────────────────────────────────┘
 ```
 
-### Higher Timeframes (HTF)
+---
 
-**Purpose:** Direction and structure
+## Which Timeframe Should You Trade?
 
-- Monthly/Weekly/Daily charts
-- Swing highs and lows
-- Major support and resistance
-- **Answer:** "What's the overall direction?"
+### By Personality
 
-### Middle Timeframes
+| Personality | Best Timeframe |
+|-------------|----------------|
+| Patient (long-term) | Daily, Weekly |
+| Balanced | 4H, Daily |
+| Active | 1H, 15M |
+| Aggressive | 15M, 5M |
 
-**Purpose:** Confirmation
+### By Strategy
 
-- 4-hour/daily charts
-- Trend identification
-- Key levels
-- **Answer:** "Is this a good setup?"
+| Strategy | Timeframe |
+|-----------|-----------|
+| Position trading | Weekly, Monthly |
+| Swing trading | Daily, 4H |
+| Day trading | 1H, 15M |
+| Scalping | 15M, 5M, 1M |
 
-### Lower Timeframes (LTF)
+### By Capital
 
-**Purpose:** Entry timing
-
-- 1-hour/15-minute charts
-- Precise entries
-- Stop placement
-- **Answer:** "Where do I enter?"
+| Capital | Timeframe |
+|---------|-----------|
+| Small | Daily, 4H |
+| Medium | 4H, 1H |
+| Large | Daily |
 
 ---
 
-## How to Use Multiple Timeframes
+## Multi-Timeframe Analysis
 
-### For Trend Following
+### Step 1: Higher Timeframe (Direction)
 
-1. **Monthly/Daily** — Identify uptrend
-2. **4-Hour** — Wait for pullback
-3. **1-Hour** — Enter on bounce
+Check Weekly/Daily:
+- Uptrend or downtrend?
+- Major levels identified?
+- Structure clear?
 
-### For Range Trading
-
-1. **Daily** — Identify range bounds
-2. **4-Hour** — Confirm bounces
-3. **1-Hour** — Time entries
-
-### For Breakouts
-
-1. **Daily** — Watch key level
-2. **4-Hour** — Confirm consolidation
-3. **1-Hour** — Enter on breakout candle
+**Answer:** Should I be BUYING or SELLING?
 
 ---
 
-## Choosing Your Primary Timeframe
+### Step 2: Middle Timeframe (Setup)
 
-Your timeframe depends on:
+Check Daily/4H:
+- What setup is forming?
+- Trend continuation or reversal?
+- Key levels?
 
-| Factor | Shorter TF | Longer TF |
-|--------|-----------|----------|
-| Capital | Smaller | Larger |
-| Time available | More | Less |
-| Stress level | Higher | Lower |
-| Position hold | Hours | Days/weeks |
-| Transaction costs | More important | Less important |
+**Answer:** What's my trading setup?
 
 ---
 
-## Matching Timeframe to Strategy
+### Step 3: Lower Timeframe (Entry)
 
-### Scalping (M1-M15)
+Check 1H/15M:
+- Where's my exact entry?
+- Where's my stop?
+- Is my entry confirmed?
 
-**Characteristics:**
-- Quick trades (seconds to minutes)
-- Small targets
-- High frequency
-- High stress
+**Answer:** Where do I enter and exit?
 
-**Best for:**
-- High-volume traders
-- Those with lots of time
-- Fast decision makers
+---
 
-### Day Trading (M15-H1)
+## Real Examples
 
-**Characteristics:**
-- Same-day trades
-- Medium targets
-- Moderate frequency
-- Moderate stress
+### Long Entry Example
 
-**Best for:**
-- Full-time traders
-- Those with capital to scale
-- Balanced lifestyle
+```
+HTF (Daily): Uptrend confirmed
+MTF (4H): Pullback to support
+LTF (1H): Entry on bounce confirmation
+Result: High probability long
+```
 
-### Swing Trading (H1-D1)
+### Short Entry Example
 
-**Characteristics:**
-- Hold for days to weeks
-- Larger targets
-- Lower frequency
-- Lower stress
-
-**Best for:**
-- Part-time traders
-- Those with other commitments
-- Patient traders
-
-### Position Trading (D1-W1)
-
-**Characteristics:**
-- Hold for weeks to months
-- Large targets
-- Low frequency
-- Lowest stress
-
-**Best for:**
-- Long-term investors
-- Those with significant capital
-- Very patient traders
+```
+HTF (Daily): Downtrend confirmed
+MTF (4H): Rally to resistance  
+LTF (1H): Entry on rejection
+Result: High probability short
+```
 
 ---
 
 ## Common Mistakes
 
-### 1. Timeframe Confusion
+### 1. Timeframe Conflict
 
-**Mistake:** Trading against a higher timeframe trend.
+**Problem:** Higher says up, lower says down.
 
-**Result:** Fighting the bigger picture.
-
-**Fix:** Always check higher timeframe first.
+**Solution:** Always follow HTF direction.
 
 ---
 
-### 2. Over-Trading Lower Timeframes
+### 2. Over-Trading at Lower Timeframes
 
-**Mistake:** Trading 5-minute charts for position trades.
+**Problem:** Trading 5-minute chart for swing trades.
 
-**Result:** Overtrading, emotional exhaustion.
+**Result:** Exhaustion, overtrading.
 
-**Fix:** Match timeframe to holding period.
+**Solution:** Match timeframe to holding period.
 
 ---
 
-### 3. Ignoring Structure on Higher Timeframes
+### 3. Ignoring Higher Timeframe
 
-**Mistake:** Trading only one timeframe.
+**Problem:** Only looking at one timeframe.
 
 **Result:** Missing the big picture.
 
-**Fix:** Always check higher timeframe for direction.
+**Solution:** Always check HTF first.
 
 ---
 
-## Timeframe Analysis Process
+## Timeframe Selection Guide
+
+| To Trade | Use |
+|----------|-----|
+| Swing (days/weeks) | Daily, 4H |
+| Intraday (hours) | 1H, 15M |
+| Scalping (minutes) | 15M, 5M |
+
+---
+
+## Summary Table
+
+| Factor | Short TF | Long TF |
+|--------|----------|----------|
+| Noise | High | Low |
+| Signals | Many | Few |
+| Stress | High | Low |
+| Cost | Higher (spreads) | Lower |
+| Accuracy | Lower | Higher |
+
+---
+
+## Quick Checklist
 
 ```
-Step 1: Monthly/W1
-→ What's the long-term direction?
-
-Step 2: Daily
-→ What's the structure? Trend or range?
-
-Step 3: 4-Hour
-→ What's the current trend?
-
-Step 4: 1-Hour
-→ Where's the entry setup?
-
-Step 5: Execute
-→ Place trade with stop on 1-hour
+☐ Checked higher timeframe?
+☐ Identified trend?
+☐ Found key levels?
+☐ Confirmed on lower timeframe?
+☐ Placed entry/stop?
 ```
 
 ---
 
-# Key Takeaways
+## Related Topics
 
-1. **Every trader sees different price action** — Based on their timeframe
-2. **Higher timeframes determine direction** — Lower timeframes determine timing
-3. **Match timeframe to strategy** — Don't mismatch
-4. **Use multiple timeframes** — For confluence
-5. **Pick one primary timeframe** — Don't constantly switch
+- [[foundations/Market-Structure]] — Understand trends
+- [[foundations/Volatility]] — Context
+- [[analysis/Multi-Timeframe]] — Analysis methods
 
 ---
 
-# Next Step
-
-Now that you understand timeframes:
-
->>> [order-types.md](./order-types.md) >>>
-
-*Trade on the right timeframe for your personality.*
+*Higher confirms. Lower times.*

@@ -1,109 +1,182 @@
 ---
-title: "Volatility"
+title: "Volatility - Complete Guide"
 tags:
   - foundations
   - volatility
+  - atr
+  - bollinger-bands
+  - trading
+description: "Master volatility - understand price movement, measure it, and use it to improve your trading."
+slug: volatility
 ---
 
-# Volatility
+# Volatility: The Pulse of the Market
 
-Volatility is the heartbeat of the market. It's the fuel that drives price movement. Master volatility, and you'll understand when to trade and when to stay on the sidelines.
+Volatility is the heartbeat of any market. It measures how much and how fast price moves. Understanding volatility is critical for:
+
+- **Position sizing** — Adjust position based on volatility
+- **Stop placement** — Stops must account for normal volatility
+- **Target setting** — Higher volatility = larger targets
+- **Market conditions** — Adapting to different environments
 
 ---
 
-## What Is Volatility?
+## What is Volatility?
 
-Volatility measures how much price moves over a given period.
+### Simple Definition
 
-- **High volatility** = Large price swings = Big profits, big risks
-- **Low volatility** = Small price swings = Smaller moves, tighter stops
-
-**Simple definition:** How fast and far price moves.
+Volatility = How much price moves over a given period.
 
 ```
-High Volatility          Low Volatility
-     ╱╲  ╱╲              ╱────╲
-   ╱    ╲    ╲         ╱╱        ╲╲
-  ╱                    ╱           ╲
-                      
-Wide swings           Narrow movements
+Low Volatility          High Volatility
+   ╱╲                    ╱╲╱╲
+  ╱  ╲                  ╱      ╲
+ ╱      ╲              ╱         ╲
+Small range            Large range
 ```
 
----
-
-## Why Volatility Matters
+### Why It Matters
 
 | Factor | Impact |
 |--------|--------|
 | Position size | High volatility = smaller size |
-| Stop width | High volatility = wider stops |
-| Target distance | High volatility = further targets |
-| Strategy choice | Volatility determines setup viability |
+| Stop loss | High volatility = wider stops |
+| Target | High volatility = bigger targets |
+| Strategy | Volatility affects viability |
 
 ---
 
-## Measuring Volatility
+## Volatility Indicators
 
-### ATR (Average True Range)
+### 1. ATR (Average True Range)
 
-The most popular volatility indicator.
+**Most popular volatility indicator.**
 
-**Formula:** Average of true range over N periods
-
-**How to use:**
-- ATR 100 = Average move of 100 pips/points
-- Use ATR for stop and target placement
-
-### Bollinger Bands
-
-Visual volatility indicator.
-
+#### Formula
 ```
-Upper Band
-─────────
-         ╲
-          ╲  Price
-           ╲
-─────────  Middle (SMA)
-           ╱
-          ╱
-         ╱
-Lower Band
+TR = True Range (Today's H - Today's L, or Today's H - Yesterday's C)
+ATR = Average of TR over N periods (typically 14)
 ```
 
-- **Band width = volatility**
-- Narrow bands = low volatility (potential breakout)
-- Wide bands = high volatility
+#### How to Use
+```
+ATR = 50 pips (for example)
+My stop: 50-100 pips (1-2 ATR)
+My target: 100-150 pips (2-3 ATR)
+```
+
+#### ATR Table
+
+| Currency Pair | Low ATR | Medium ATR | High ATR |
+|--------------|--------|------------|--------|
+| EUR/USD | 30-50 | 50-80 | 80-120 |
+| GBP/USD | 40-60 | 60-100 | 100-150 |
+| USD/JPY | 30-50 | 50-70 | 70-100 |
+| BTC/USD | 100-200 | 200-400 | 400+ |
+
+---
+
+### 2. Bollinger Bands
+
+**Visual volatility indicator.**
+
+```
+Upper Band (+2 SD)
+─────────────
+    Price
+─────────────  Middle Band (SMA)
+    Price
+─────────────
+Lower Band (-2 SD)
+```
+
+#### How to Use
+
+| Condition | Meaning |
+|-----------|--------|
+| Bands wide | High volatility |
+| Bands narrow | Low volatility (potential breakout) |
+| Price at upper band | Overbought |
+| Price at lower band | Oversold |
+
+---
+
+### 3. Average True Range Percent (ATRP)
+
+**Normalizes ATR to percentage for comparison.**
+
+```
+ATRP% = (ATR / Close Price) × 100
+
+Example:
+ATR = 50 pips
+Price = 1.1000
+ATRP% = (50 / 1.1000) × 100 = 4.5%
+```
+
+---
+
+### 4. Standard Deviation
+
+**Measures price distribution.**
+
+- Low SD = Most price within narrow range
+- High SD = Wide price distribution
 
 ---
 
 ## Volatility Regimes
 
-### High Volatility
-
-**Characteristics:**
-- Large candlesticks
-- Wide ATR
-- News-driven moves
-- Fast breakouts
-
-**Trading implications:**
-- Reduce position size (same risk = smaller size)
-- Wider stops needed
-- Trade smaller timeframes for entries
-
 ### Low Volatility
 
 **Characteristics:**
 - Small candlesticks
-- Narrow ATR
+- Narrow ranges
 - Consolidation
 - False breakouts
 
 **Trading implications:**
-- Increase position size (same risk = larger size)
-- Tighter stops possible
-- Wait for breakout confirmation
+- Smaller stops possible
+- Wait for confirmed breakouts
+- Lower target expectations
+
+---
+
+### High Volatility
+
+**Characteristics:**
+- Large candlesticks
+- Wide ranges
+- Strong trends
+- Real breakouts
+
+**Trading implications:**
+- Wider stops needed
+- Better breakouts
+- Larger target potential
+
+---
+
+### Volatility Cycles
+
+```
+Volatility
+     │     High      High
+     │      ╱╲      ╱╲
+     │     ╱  ╲    ╱  ╲
+     │    ╱    ╲  ╱    ╲
+     │   ╱      ╲╱      ╲
+     │  ╱        ╱        ╲
+     │ ╱        ╱          ╲
+     └──────────────────────────��─
+       Contracting → Expanding → Contracting
+```
+
+**Pattern:**
+1. **Contraction** — Low volatility, consolidation
+2. **Expansion** — Breakout, strong move
+3. **Distribution** — High volatility, ending move
+4. **Repeat** — New cycle
 
 ---
 
@@ -112,98 +185,86 @@ Lower Band
 ### Position Sizing Formula
 
 ```
-Position Size = Risk Amount ÷ Stop in Points
+Position Size = Risk Amount ÷ ( ATR × Multiplier )
+
+Example:
+Account: $10,000
+Risk: 2% = $200
+ATR: 50 pips
+Multiplier: 2
+Position = $200 ÷ (50 × 2) = 2 lots
 ```
 
-**But stop width should depend on volatility:**
+### Stop Placement
 
-| ATR Value | Suggested Stop |
-|----------|---------------|
-| 50 pips | 50-100 pips (1-2 ATR) |
-| 100 pips | 100-200 pips (1-2 ATR) |
-| 200 pips | 200-400 pips (1-2 ATR) |
-
-### Stop Placement and Volatility
-
-**Rule:** Stop must be outside normal volatility.
+**Rule:** Stop must be > 1.5 × ATR beyond entry.
 
 ```
-Price
-     │
-     │    ← Too tight (normal volatility hits it)
-     │
- ────●────────────────  Stop
-     ╲
-      ╲ ← Outside normal range
-       ╲
+Entry: 1.1000
+ATR: 50 pips
+Minimum stop: 1.1000 - (50 × 1.5) = 1.0925
+Smart stop: 1.0925 - extra buffer
+```
+
+### Target Placement
+
+**Rule:** Target should be > 2:1 from entry to stop.
+
+```
+Stop: 50 pips
+Target minimum: 100 pips (2:1)
+With high volatility: Target can be 150-200 pips
 ```
 
 ---
 
-## Volatility Cycles
+## Volatility-Based Strategies
 
-Volatility isn't static. It cycles:
+### 1. Volatility Breakout
 
 ```
-Volatility
-     │     High         High
-     │      ╱╲         ╱╲
-     │     ╱  ╲       ╱  ╲     Low
-     │    ╱    ╲     ╱    ╲    ╱
-     │   ╱      ╲   ╱      ╲  ╱
-     │  ╱        ╲ ╱        ╲╱
-     │ ╱          ╱          ╱
-     │╱          ╱          ╱
-     └──────────────────────────────  Time
-       Contracting → Expanding → Contracting
+Setup:
+- ATR > 20-day average
+- Price breaks consolidation
+- Volumeconfirm
+
+Entry: On breakout
+Stop: Below consolidation
+Target: 2× ATR
 ```
 
-### Contraction → Expansion
+### 2. Volatility Contraction
 
-1. **Low volatility** — Markets consolidate
-2. **Price compresses** — Bands narrow
-3. **Breakout** — Volume spikes, volatility expands
-4. **Trend move** — Large directional moves
+```
+Setup:
+- ATR < 20-day average
+- Narrow range
+- Squeeze forming
 
-### Expansion → Contraction
+Entry: On breakout
+Stop: Opposite side of range
+Target: ATR × 2
+```
 
-1. **High volatility** — Strong trending move
-2. **Momentum exhausts** — Candlesticks shrink
-3. ** Consolidation** — Volatility contracts
-4. **Repeat** — New cycle begins
+### 3. ATR Trailing Stop
+
+```
+Move stop to:
+- New high - ATR × 1.5 (long)
+- New low + ATR × 1.5 (short)
+```
 
 ---
 
-## Trading Different Volatility Conditions
+## Best Volatility Settings by Market
 
-### In High Volatility
-
-| Do | Don't |
-|----|-------|
-| Reduce position size | Over-risk |
-| Use wider stops | Set tight stops |
-| Trade with momentum | Fade momentum |
-| Take partial profits | Hold for too long |
-
-### In Low Volatility
-
-| Do | Don't |
-|----|-------|
-| Increase position size | Over-leverage |
-| Use tighter stops | Set wide stops |
-| Wait for breaks | Force trades |
-| Be patient | Chase price |
-
----
-
-## Volatility Indicators
-
-| Indicator | Type | Use |
-|-----------|------|-----|
-| ATR | Volatility | Stop/target sizing |
-| Bollinger Bands | Volatility | Visual range |
-| Average Range | Volatility | Historical context |
-| Keltner Channel | Volatility | Trend with volatility |
+| Market | ATR Period | Multiplier |
+|--------|------------|-----------|
+| Forex majors | 14 | 1.5-2.0 |
+| Forex crosses | 20 | 2.0-2.5 |
+| Indices | 20 | 1.5-2.0 |
+| Crypto | 7 | 2.0-3.0 |
+| Stocks | 20 | 2.0-2.5 |
 
 ---
 
@@ -211,7 +272,7 @@ Volatility
 
 ### 1. Ignoring Volatility
 
-**Mistake:** Using fixed stops regardless of conditions.
+**Problem:** Using fixed stops regardless of conditions.
 
 **Result:** Stops hit in normal volatility.
 
@@ -219,40 +280,55 @@ Volatility
 
 ---
 
-### 2. Over-Risking in Low Volatility
+### 2. Too Large in High Volatility
 
-**Mistake:** Taking large positions when volatility is low.
+**Problem:** Taking large positions when volatility is high.
 
-**Result:** Normal volatility expansion wipes account.
+**Result:** Account blow-up.
 
-**Fix:** Always size based on potential volatility, not just stop size.
-
----
-
-### 3. Trading Breakouts in Low Volatility
-
-**Mistake:** Expecting big moves in consolidating markets.
-
-**Result:** False breakouts, whipsaws.
-
-**Fix:** Wait for volatility expansion before entering.
+**Fix:** Reduce size when ATR is high.
 
 ---
 
-# Key Takeaways
+### 3. Wrong Expectations
 
-1. **Volatility = price movement range**
-2. **High volatility = bigger moves, bigger risks**
-3. **Low volatility = smaller moves, consolidation**
-4. **Use ATR to measure and size**
-5. **Match position size to volatility**
+**Problem:** Same targets in high/volatility markets.
+
+**Result:** Missing potential.
+
+**Fix:** Adjust targets to volatility.
 
 ---
 
-# Next Step
+### 4. Trading Breakouts in Low Volatility
 
-Now that you understand volatility:
+**Problem:** Expecting big moves in quiet markets.
 
->>> [timeframes.md](./timeframes.md) >>>
+**Result:** False breakouts.
+
+**Fix:** Wait for volatility expansion.
+
+---
+
+## Practical Checklist
+
+```
+☐ Check ATR before trade
+☐ Size stop based on volatility
+☐ Set target at 2× minimum
+☐ Reduce size in high volatility
+☐ Trail stop using ATR
+```
+
+---
+
+## Related Topics
+
+- [[foundations/Market-Structure]] — Understand trends
+- [[foundations/Liquidity]] — Order flow
+- [[risk-management/Stop-Loss]] — Protect capital
+- [[tools/Backtesting]] — Test strategies
+
+---
 
 *Trade volatility, not just price.*
